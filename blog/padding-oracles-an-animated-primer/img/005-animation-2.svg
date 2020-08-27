@@ -1,0 +1,966 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340">
+    <g id="anim_2_frame_0">
+        <g id="a2_f0_hide_block">
+            <text x="24" y="130" class="text">ciphertext block 0</text>
+            <use xlink:href="#ciphertext_0" x="139" y="114" class="violet"/>
+            <text x="24" y="160" class="text">ciphertext block 1</text>
+            <use xlink:href="#ciphertext_1" x="139" y="143" class="violet"/>
+            <text x="24" y="189" class="text">ciphertext block 2</text>
+            <use xlink:href="#ciphertext_2" x="139" y="172" class="violet"/>
+        </g>
+        <g id="a2_f0_move_block">
+            <text x="24" y="218" class="text">ciphertext block 3</text>
+            <use xlink:href="#ciphertext_3" x="139" y="201" class="violet"/>
+        </g>
+    </g>
+    <g id="anim_2_frame_1" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <g id="a2_f1_fade_in" opacity="0">
+            <use xlink:href="#aes_no_arrow" x="172" y="-43" />
+        </g>
+    </g>
+    <g id="anim_2_frame_2" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes_no_arrow" x="172" y="-43" />
+        <g id="a2_f2_fade_in" opacity="0">
+            <text x="9" y="243" class="text">intermediate block 3</text>
+            <use xlink:href="#xor_3" x="139" y="227" class="green"/>
+            <use xlink:href="#down_arrow" x="172" y="-43" />
+        </g>
+    </g>
+    <g id="anim_2_frame_3" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#xor_3" x="139" y="227" class="green"/>
+        <g id="a2_f3_fade_in" opacity="0">
+            <text x="24" y="270" class="text">ciphertext block 2</text>
+            <use xlink:href="#ciphertext_2" x="139" y="254" class="violet"/>
+        </g>
+    </g>
+    <g id="anim_2_frame_4" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#xor_3" x="139" y="227" class="green"/>
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#ciphertext_2" x="139" y="254" class="violet"/>
+        <g id="a2_f4_fade_in" opacity="0">
+            <text x="31" y="298" class="text">plaintext block 3</text>
+            <use xlink:href="#plaintext_3" x="139" y="281" class="yellow"/>
+            <use xlink:href="#xor_symbol" x="463" y="255" />
+        </g>
+    </g>
+    <g id="anim_2_frame_5" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#ciphertext_2" x="139" y="254" class="violet"/>
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <g id="a2_f5_fade_out_1" opacity="1">
+            <use xlink:href="#xor_3_text" x="139" y="227"/>
+        </g>
+        <g id="a2_f5_fade_out_2" opacity="1">
+            <use xlink:href="#plaintext_3_text" x="139" y="281" />
+        </g>
+        <g id="a2_f5_fade_in_1" opacity="0">
+            <use xlink:href="#question_marks" x="139" y="226" />
+        </g>
+        <g id="a2_f5_fade_in_2" opacity="0">
+            <use xlink:href="#question_marks" x="139" y="280.5" />
+        </g>
+        <g id="a2_f5_fade_in_3" opacity="0">
+            <use xlink:href="#tick" x="459" y="277" />
+        </g>
+    </g>
+    <g id="anim_2_frame_6" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <use xlink:href="#question_marks" x="139" y="226" />
+        <g id="a2_f6_fade_out" opacity="1">
+            <use xlink:href="#ciphertext_2_text" x="139" y="254" />
+            <use xlink:href="#tick" x="459" y="277" />
+            <use xlink:href="#question_marks" x="139" y="280.5" />
+        </g>
+        <g id="a2_f6_fade_in" opacity="0">
+            <use xlink:href="#zeroes" x="138" y="254" />
+            
+        </g>
+    </g>
+    <g id="anim_2_frame_7" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <use xlink:href="#question_marks" x="139" y="226" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes" x="138" y="254" />
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <g id="a2_f7_fade_in" opacity="0">
+            <use xlink:href="#cross" x="468" y="286" />
+            <use xlink:href="#question_marks" x="139" y="280.5" />
+        </g>
+    </g>
+    <g id="anim_2_frame_8" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <use xlink:href="#question_marks" x="139" y="226" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#question_marks" x="139" y="280.5" />
+        <use xlink:href="#cross" x="468" y="286" />
+        <g id="a2_f8_char_0" opacity="1"><text x="446" y="270.5" class="text">0</text></g>
+        <g id="a2_f8_char_1" opacity="0"><text x="446.5" y="270" class="text">1</text></g>
+        <g id="a2_f8_char_2" opacity="0"><text x="446.5" y="270" class="text">2</text></g>
+        <g id="a2_f8_char_3" opacity="0"><text x="446.5" y="270" class="text">3</text></g>
+        <g id="a2_f8_char_4" opacity="0"><text x="446.5" y="270" class="text">4</text></g>
+        <g id="a2_f8_char_5" opacity="0"><text x="446.5" y="270" class="text">5</text></g>
+        <g id="a2_f8_char_6" opacity="0"><text x="446.5" y="270" class="text">6</text></g>
+        <g id="a2_f8_char_7" opacity="0"><text x="446.5" y="270" class="text">7</text></g>
+        <g id="a2_f8_char_8" opacity="0"><text x="446.5" y="270" class="text">8</text></g>
+        <g id="a2_f8_char_9" opacity="0"><text x="446.5" y="270" class="text">9</text></g>
+        <g id="a2_f8_char_10" opacity="0"><text x="443" y="270" class="text">10</text></g>
+        <g id="a2_f8_char_11" opacity="0"><text x="443" y="270" class="text">11</text></g>
+        <g id="a2_f8_char_12" opacity="0"><text x="443" y="270" class="text">12</text></g>
+        <g id="a2_f8_char_13" opacity="0"><text x="443" y="270" class="text">13</text></g>
+        <g id="a2_f8_char_14" opacity="0"><text x="443" y="270" class="text">14</text></g>
+        <g id="a2_f8_char_15" opacity="0"><text x="443" y="270" class="text">15</text></g>
+    </g>
+    <g id="anim_2_frame_9" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#question_marks" x="139" y="226" />
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <text x="443" y="270" class="text">15</text>
+        <use xlink:href="#question_marks_15" x="139" y="280.5" />
+        <use xlink:href="#tick" x="459" y="277" />
+        <g id="a2_f9_fade_out" opacity="1">
+            <text x="447" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f9_fade_in" opacity="0">
+            <text x="446" y="297" class="text">1</text>
+        </g>
+    </g>
+    <g id="anim_2_frame_10" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#question_marks_15" x="139" y="226" />
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="443" y="270" class="text">15</text>
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#tick" x="459" y="277" />
+        <use xlink:href="#question_marks_15" x="139" y="280.5" />
+        <text x="446" y="297" class="text">1</text>
+        <g id="a2_f10_fade_out" opacity="1">
+            <text x="447" y="242.5" class="text">?</text>
+        </g>
+        <g id="a2_f10_fade_in" opacity="0">
+            <text x="445.5" y="243" class="text">X</text>
+        </g>
+    </g>
+    <g id="anim_2_frame_11" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#question_marks_15" x="139" y="226" />
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="445.5" y="243" class="text">X</text>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#question_marks_15" x="139" y="280.5" />
+        <g id="a2_f11_fade_out" opacity="1">
+            <text x="446" y="297" class="text">1</text>
+            <text x="443" y="270" class="text">15</text>
+            <use xlink:href="#tick" x="459" y="277" />
+        </g>
+        <g id="a2_f11_fade_in" opacity="0">
+            <text x="446" y="297" class="text">2</text>
+            <text x="443" y="270" class="text">23</text>
+            <use xlink:href="#cross" x="468" y="286" />
+        </g>
+    </g>
+
+    <g id="anim_2_frame_12" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#question_marks_15" x="139" y="226" />
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="445.5" y="243" class="text">X</text>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_14" x="138" y="254" />
+        <text x="443" y="270" class="text">23</text>
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#question_marks_15" x="139" y="280.5" />
+        <text x="446" y="297" class="text">2</text>
+        <use xlink:href="#cross" x="468" y="286" />
+        <g id="a2_f12_char_0" opacity="1"><text x="426" y="270.5" class="text">0</text></g>
+        <g id="a2_f12_char_1" opacity="0"><text x="426.5" y="270" class="text">1</text></g>
+        <g id="a2_f12_char_2" opacity="0"><text x="426.5" y="270" class="text">2</text></g>
+        <g id="a2_f12_char_3" opacity="0"><text x="426.5" y="270" class="text">3</text></g>
+        <g id="a2_f12_char_4" opacity="0"><text x="426.5" y="270" class="text">4</text></g>
+        <g id="a2_f12_char_5" opacity="0"><text x="426.5" y="270" class="text">5</text></g>
+        <g id="a2_f12_char_6" opacity="0"><text x="426.5" y="270" class="text">6</text></g>
+        <g id="a2_f12_char_7" opacity="0"><text x="426.5" y="270" class="text">7</text></g>
+        <g id="a2_f12_char_8" opacity="0"><text x="426.5" y="270" class="text">8</text></g>
+        <g id="a2_f12_char_9" opacity="0"><text x="426.5" y="270" class="text">9</text></g>
+        <g id="a2_f12_char_10" opacity="0"><text x="422.5" y="270" class="text">10</text></g>
+        <g id="a2_f12_char_11" opacity="0"><text x="422.5" y="270" class="text">11</text></g>
+        <g id="a2_f12_char_12" opacity="0"><text x="422.5" y="270" class="text">12</text></g>
+        <g id="a2_f12_char_13" opacity="0"><text x="422.5" y="270" class="text">13</text></g>
+        <g id="a2_f12_char_14" opacity="0"><text x="422.5" y="270" class="text">14</text></g>
+        <g id="a2_f12_char_15" opacity="0"><text x="422.5" y="270" class="text">15</text></g>
+        <g id="a2_f12_char_16" opacity="0"><text x="422.5" y="270" class="text">16</text></g>
+        <g id="a2_f12_char_17" opacity="0"><text x="422.5" y="270" class="text">18</text></g>
+        <g id="a2_f12_char_18" opacity="0"><text x="422.5" y="270" class="text">20</text></g>
+        <g id="a2_f12_char_19" opacity="0"><text x="422.5" y="270" class="text">22</text></g>
+        <g id="a2_f12_char_20" opacity="0"><text x="422.5" y="270" class="text">24</text></g>
+        <g id="a2_f12_char_21" opacity="0"><text x="422.5" y="270" class="text">26</text></g>
+        <g id="a2_f12_char_22" opacity="0"><text x="422.5" y="270" class="text">28</text></g>
+        <g id="a2_f12_char_23" opacity="0"><text x="422.5" y="270" class="text">30</text></g>
+        <g id="a2_f12_char_24" opacity="0"><text x="422.5" y="270" class="text">32</text></g>
+    </g>
+    
+    <g id="anim_2_frame_13" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#question_marks_14" x="139" y="226" />
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="445.5" y="243" class="text">X</text>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        <use xlink:href="#zeroes_14" x="138" y="254" />
+        <text x="443" y="270" class="text">23</text>
+        <text x="422.5" y="270" class="text">31</text>
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#tick" x="459" y="277" />
+        <use xlink:href="#question_marks_14" x="139" y="280.5" />
+        <text x="446" y="297" class="text">2</text>
+        <text x="426" y="297" class="text">2</text>
+        <g id="a2_f13_fade_out" opacity="1">
+            <text x="427" y="242.5" class="text">?</text>
+        </g>
+        <g id="a2_f13_fade_in" opacity="0">
+            <text x="426" y="243" class="text">Z</text>
+        </g>
+    </g>
+
+    <g id="anim_2_frame_14" style="display:none">
+        <text x="24" y="60" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+        <use xlink:href="#aes" x="172" y="-43" />
+        <text x="9" y="243" class="text">intermediate block 3</text>
+        <use xlink:href="#block" x="139" y="227" class="green"/>
+        <use xlink:href="#zeroes_15" x="138" y="254" />
+        <text x="445.5" y="243" class="text">X</text>
+        <text x="426" y="243" class="text">Z</text>
+        <use xlink:href="#xor_symbol" x="463" y="255" />
+        <text x="24" y="270" class="text">ciphertext block 2</text>
+        <use xlink:href="#block" x="139" y="254" class="violet"/>
+        
+        <text x="31" y="298" class="text">plaintext block 3</text>
+        <use xlink:href="#block" x="139" y="281" class="yellow"/>
+        <use xlink:href="#tick" x="459" y="277" />
+
+        <g id="a2_f14_pad_2" opacity="1">
+            <text x="446" y="297" class="text">2</text>
+            <text x="426" y="297" class="text">2</text>
+            <text x="443" y="270" class="text">23</text>
+            <text x="422.5" y="270" class="text">31</text>
+        </g>
+        <g id="a2_f14_pad_3" opacity="0">
+            <text x="446" y="297" class="text">3</text>
+            <text x="426" y="297" class="text">3</text>
+            <text x="406" y="297" class="text">3</text>
+            <text x="443" y="270" class="text">24</text>
+            <text x="422.5" y="270" class="text">32</text>
+            <text x="402.5" y="270" class="text">53</text>
+        </g>
+        <g id="a2_f14_pad_4" opacity="0">
+            <text x="446" y="297" class="text">4</text>
+            <text x="426" y="297" class="text">4</text>
+            <text x="406" y="297" class="text">4</text>
+            <text x="386" y="297" class="text">4</text>
+            <text x="443" y="270" class="text">25</text>
+            <text x="422.5" y="270" class="text">33</text>
+            <text x="402.5" y="270" class="text">54</text>
+            <text x="382.5" y="270" class="text">14</text>
+        </g>
+        <g id="a2_f14_pad_5" opacity="0">
+            <text x="446" y="297" class="text">5</text>
+            <text x="426" y="297" class="text">5</text>
+            <text x="406" y="297" class="text">5</text>
+            <text x="386" y="297" class="text">5</text>
+            <text x="366" y="297" class="text">5</text>
+            <text x="443" y="270" class="text">26</text>
+            <text x="422.5" y="270" class="text">34</text>
+            <text x="402.5" y="270" class="text">56</text>
+            <text x="382.5" y="270" class="text">15</text>
+            <text x="362.5" y="270" class="text">91</text>
+        </g>
+        <g id="a2_f14_pad_6" opacity="0">
+            <text x="446" y="297" class="text">6</text>
+            <text x="426" y="297" class="text">6</text>
+            <text x="406" y="297" class="text">6</text>
+            <text x="386" y="297" class="text">6</text>
+            <text x="366" y="297" class="text">6</text>
+            <text x="346" y="297" class="text">6</text>
+            <text x="443" y="270" class="text">27</text>
+            <text x="422.5" y="270" class="text">35</text>
+            <text x="402.5" y="270" class="text">57</text>
+            <text x="382.5" y="270" class="text">16</text>
+            <text x="362.5" y="270" class="text">92</text>
+            <text x="342.5" y="270" class="text">98</text>
+        </g>
+        <g id="a2_f14_pad_7" opacity="0">
+            <text x="446" y="297" class="text">7</text>
+            <text x="426" y="297" class="text">7</text>
+            <text x="406" y="297" class="text">7</text>
+            <text x="386" y="297" class="text">7</text>
+            <text x="366" y="297" class="text">7</text>
+            <text x="346" y="297" class="text">7</text>
+            <text x="326" y="297" class="text">7</text>
+            <text x="443" y="270" class="text">28</text>
+            <text x="422.5" y="270" class="text">36</text>
+            <text x="402.5" y="270" class="text">58</text>
+            <text x="382.5" y="270" class="text">17</text>
+            <text x="362.5" y="270" class="text">93</text>
+            <text x="342.5" y="270" class="text">99</text>
+            <text x="322.5" y="270" class="text">19</text>
+        </g>
+        <g id="a2_f14_pad_8" opacity="0">
+            <text x="446" y="297" class="text">8</text>
+            <text x="426" y="297" class="text">8</text>
+            <text x="406" y="297" class="text">8</text>
+            <text x="386" y="297" class="text">8</text>
+            <text x="366" y="297" class="text">8</text>
+            <text x="346" y="297" class="text">8</text>
+            <text x="326" y="297" class="text">8</text>
+            <text x="306" y="297" class="text">8</text>
+            <text x="443" y="270" class="text">29</text>
+            <text x="422.5" y="270" class="text">37</text>
+            <text x="402.5" y="270" class="text">59</text>
+            <text x="382.5" y="270" class="text">18</text>
+            <text x="362.5" y="270" class="text">94</text>
+            <text x="342.5" y="270" class="text">90</text>
+            <text x="322.5" y="270" class="text">10</text>
+            <text x="302.5" y="270" class="text">22</text>
+        </g>
+        <g id="a2_f14_pad_9" opacity="0">
+            <text x="446" y="297" class="text">9</text>
+            <text x="426" y="297" class="text">9</text>
+            <text x="406" y="297" class="text">9</text>
+            <text x="386" y="297" class="text">9</text>
+            <text x="366" y="297" class="text">9</text>
+            <text x="346" y="297" class="text">9</text>
+            <text x="326" y="297" class="text">9</text>
+            <text x="306" y="297" class="text">9</text>
+            <text x="286" y="297" class="text">9</text>
+            <text x="443" y="270" class="text">30</text>
+            <text x="422.5" y="270" class="text">38</text>
+            <text x="402.5" y="270" class="text">50</text>
+            <text x="382.5" y="270" class="text">19</text>
+            <text x="362.5" y="270" class="text">95</text>
+            <text x="342.5" y="270" class="text">91</text>
+            <text x="322.5" y="270" class="text">11</text>
+            <text x="302.5" y="270" class="text">23</text>
+            <text x="282.5" y="270" class="text">88</text>
+        </g>
+        <g id="a2_f14_pad_10" opacity="0">
+            <text x="442.5" y="297" class="text">10</text>
+            <text x="422.5" y="297" class="text">10</text>
+            <text x="402.5" y="297" class="text">10</text>
+            <text x="382.5" y="297" class="text">10</text>
+            <text x="362.5" y="297" class="text">10</text>
+            <text x="342.5" y="297" class="text">10</text>
+            <text x="322.5" y="297" class="text">10</text>
+            <text x="302.5" y="297" class="text">10</text>
+            <text x="282.5" y="297" class="text">10</text>
+            <text x="262.5" y="297" class="text">10</text>
+            <text x="443" y="270" class="text">31</text>
+            <text x="422.5" y="270" class="text">39</text>
+            <text x="402.5" y="270" class="text">51</text>
+            <text x="382.5" y="270" class="text">20</text>
+            <text x="362.5" y="270" class="text">96</text>
+            <text x="342.5" y="270" class="text">91</text>
+            <text x="322.5" y="270" class="text">12</text>
+            <text x="302.5" y="270" class="text">24</text>
+            <text x="282.5" y="270" class="text">89</text>
+            <text x="262.5" y="270" class="text">38</text>
+        </g>
+        <g id="a2_f14_pad_11" opacity="0">
+            <text x="442.5" y="297" class="text">11</text>
+            <text x="422.5" y="297" class="text">11</text>
+            <text x="402.5" y="297" class="text">11</text>
+            <text x="382.5" y="297" class="text">11</text>
+            <text x="362.5" y="297" class="text">11</text>
+            <text x="342.5" y="297" class="text">11</text>
+            <text x="322.5" y="297" class="text">11</text>
+            <text x="302.5" y="297" class="text">11</text>
+            <text x="282.5" y="297" class="text">11</text>
+            <text x="262.5" y="297" class="text">11</text>
+            <text x="242.5" y="297" class="text">11</text>
+            <text x="443" y="270" class="text">32</text>
+            <text x="422.5" y="270" class="text">30</text>
+            <text x="402.5" y="270" class="text">52</text>
+            <text x="382.5" y="270" class="text">22</text>
+            <text x="362.5" y="270" class="text">97</text>
+            <text x="342.5" y="270" class="text">92</text>
+            <text x="322.5" y="270" class="text">13</text>
+            <text x="302.5" y="270" class="text">25</text>
+            <text x="282.5" y="270" class="text">80</text>
+            <text x="262.5" y="270" class="text">39</text>
+            <text x="242.5" y="270" class="text">70</text>
+        </g>
+        <g id="a2_f14_pad_12" opacity="0">
+            <text x="442.5" y="297" class="text">12</text>
+            <text x="422.5" y="297" class="text">12</text>
+            <text x="402.5" y="297" class="text">12</text>
+            <text x="382.5" y="297" class="text">12</text>
+            <text x="362.5" y="297" class="text">12</text>
+            <text x="342.5" y="297" class="text">12</text>
+            <text x="322.5" y="297" class="text">12</text>
+            <text x="302.5" y="297" class="text">12</text>
+            <text x="282.5" y="297" class="text">12</text>
+            <text x="262.5" y="297" class="text">12</text>
+            <text x="242.5" y="297" class="text">12</text>
+            <text x="222.5" y="297" class="text">12</text>
+            <text x="443" y="270" class="text">29</text>
+            <text x="422.5" y="270" class="text">38</text>
+            <text x="402.5" y="270" class="text">50</text>
+            <text x="382.5" y="270" class="text">19</text>
+            <text x="362.5" y="270" class="text">95</text>
+            <text x="342.5" y="270" class="text">91</text>
+            <text x="322.5" y="270" class="text">11</text>
+            <text x="302.5" y="270" class="text">23</text>
+            <text x="282.5" y="270" class="text">88</text>
+            <text x="262.5" y="270" class="text">37</text>
+            <text x="242.5" y="270" class="text">70</text>
+            <text x="222.5" y="270" class="text">67</text>
+        </g>
+        <g id="a2_f14_pad_13" opacity="0">
+            <text x="442.5" y="297" class="text">13</text>
+            <text x="422.5" y="297" class="text">13</text>
+            <text x="402.5" y="297" class="text">13</text>
+            <text x="382.5" y="297" class="text">13</text>
+            <text x="362.5" y="297" class="text">13</text>
+            <text x="342.5" y="297" class="text">13</text>
+            <text x="322.5" y="297" class="text">13</text>
+            <text x="302.5" y="297" class="text">13</text>
+            <text x="282.5" y="297" class="text">13</text>
+            <text x="262.5" y="297" class="text">13</text>
+            <text x="242.5" y="297" class="text">13</text>
+            <text x="222.5" y="297" class="text">13</text>
+            <text x="202.5" y="297" class="text">13</text>
+            <text x="443" y="270" class="text">33</text>
+            <text x="422.5" y="270" class="text">39</text>
+            <text x="402.5" y="270" class="text">51</text>
+            <text x="382.5" y="270" class="text">10</text>
+            <text x="362.5" y="270" class="text">96</text>
+            <text x="342.5" y="270" class="text">92</text>
+            <text x="322.5" y="270" class="text">12</text>
+            <text x="302.5" y="270" class="text">24</text>
+            <text x="282.5" y="270" class="text">89</text>
+            <text x="262.5" y="270" class="text">38</text>
+            <text x="242.5" y="270" class="text">71</text>
+            <text x="222.5" y="270" class="text">68</text>
+            <text x="202.5" y="270" class="text">60</text>
+        </g>
+        <g id="a2_f14_pad_14" opacity="0">
+            <text x="442.5" y="297" class="text">14</text>
+            <text x="422.5" y="297" class="text">14</text>
+            <text x="402.5" y="297" class="text">14</text>
+            <text x="382.5" y="297" class="text">14</text>
+            <text x="362.5" y="297" class="text">14</text>
+            <text x="342.5" y="297" class="text">14</text>
+            <text x="322.5" y="297" class="text">14</text>
+            <text x="302.5" y="297" class="text">14</text>
+            <text x="282.5" y="297" class="text">14</text>
+            <text x="262.5" y="297" class="text">14</text>
+            <text x="242.5" y="297" class="text">14</text>
+            <text x="222.5" y="297" class="text">14</text>
+            <text x="202.5" y="297" class="text">14</text>
+            <text x="182.5" y="297" class="text">14</text>
+            <text x="443" y="270" class="text">34</text>
+            <text x="422.5" y="270" class="text">30</text>
+            <text x="402.5" y="270" class="text">52</text>
+            <text x="382.5" y="270" class="text">11</text>
+            <text x="362.5" y="270" class="text">97</text>
+            <text x="342.5" y="270" class="text">93</text>
+            <text x="322.5" y="270" class="text">13</text>
+            <text x="302.5" y="270" class="text">25</text>
+            <text x="282.5" y="270" class="text">80</text>
+            <text x="262.5" y="270" class="text">39</text>
+            <text x="242.5" y="270" class="text">72</text>
+            <text x="222.5" y="270" class="text">69</text>
+            <text x="202.5" y="270" class="text">61</text>
+            <text x="182.5" y="270" class="text">13</text>
+        </g>
+        <g id="a2_f14_pad_15" opacity="0">
+            <text x="442.5" y="297" class="text">15</text>
+            <text x="422.5" y="297" class="text">15</text>
+            <text x="402.5" y="297" class="text">15</text>
+            <text x="382.5" y="297" class="text">15</text>
+            <text x="362.5" y="297" class="text">15</text>
+            <text x="342.5" y="297" class="text">15</text>
+            <text x="322.5" y="297" class="text">15</text>
+            <text x="302.5" y="297" class="text">15</text>
+            <text x="282.5" y="297" class="text">15</text>
+            <text x="262.5" y="297" class="text">15</text>
+            <text x="242.5" y="297" class="text">15</text>
+            <text x="222.5" y="297" class="text">15</text>
+            <text x="202.5" y="297" class="text">15</text>
+            <text x="182.5" y="297" class="text">15</text>
+            <text x="162.5" y="297" class="text">15</text>
+            <text x="443" y="270" class="text">35</text>
+            <text x="422.5" y="270" class="text">31</text>
+            <text x="402.5" y="270" class="text">53</text>
+            <text x="382.5" y="270" class="text">12</text>
+            <text x="362.5" y="270" class="text">98</text>
+            <text x="342.5" y="270" class="text">94</text>
+            <text x="322.5" y="270" class="text">14</text>
+            <text x="302.5" y="270" class="text">26</text>
+            <text x="282.5" y="270" class="text">81</text>
+            <text x="262.5" y="270" class="text">30</text>
+            <text x="242.5" y="270" class="text">73</text>
+            <text x="222.5" y="270" class="text">60</text>
+            <text x="202.5" y="270" class="text">62</text>
+            <text x="182.5" y="270" class="text">14</text>
+            <text x="162.5" y="270" class="text">21</text>
+        </g>
+        <g id="a2_f14_pad_16" opacity="0">
+            <text x="442.5" y="297" class="text">16</text>
+            <text x="422.5" y="297" class="text">16</text>
+            <text x="402.5" y="297" class="text">16</text>
+            <text x="382.5" y="297" class="text">16</text>
+            <text x="362.5" y="297" class="text">16</text>
+            <text x="342.5" y="297" class="text">16</text>
+            <text x="322.5" y="297" class="text">16</text>
+            <text x="302.5" y="297" class="text">16</text>
+            <text x="282.5" y="297" class="text">16</text>
+            <text x="262.5" y="297" class="text">16</text>
+            <text x="242.5" y="297" class="text">16</text>
+            <text x="222.5" y="297" class="text">16</text>
+            <text x="202.5" y="297" class="text">16</text>
+            <text x="182.5" y="297" class="text">16</text>
+            <text x="162.5" y="297" class="text">16</text>
+            <text x="142.5" y="297" class="text">16</text>
+            <text x="443" y="270" class="text">36</text>
+            <text x="422.5" y="270" class="text">32</text>
+            <text x="402.5" y="270" class="text">54</text>
+            <text x="382.5" y="270" class="text">13</text>
+            <text x="362.5" y="270" class="text">99</text>
+            <text x="342.5" y="270" class="text">95</text>
+            <text x="322.5" y="270" class="text">15</text>
+            <text x="302.5" y="270" class="text">27</text>
+            <text x="282.5" y="270" class="text">82</text>
+            <text x="262.5" y="270" class="text">31</text>
+            <text x="242.5" y="270" class="text">74</text>
+            <text x="222.5" y="270" class="text">61</text>
+            <text x="202.5" y="270" class="text">63</text>
+            <text x="182.5" y="270" class="text">15</text>
+            <text x="162.5" y="270" class="text">22</text>
+            <text x="142.5" y="270" class="text">29</text>
+        </g>
+        <g id="a2_f14_question_01">
+            <text x="147" y="242.5" class="text">?</text>
+            <text x="146" y="270.5" class="text">0</text>
+            <text x="147" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_02">
+            <text x="167" y="242.5" class="text">?</text>
+            <text x="166" y="270.5" class="text">0</text>
+            <text x="167" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_03">
+            <text x="187" y="242.5" class="text">?</text>
+            <text x="186" y="270.5" class="text">0</text>
+            <text x="187" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_04">
+            <text x="207" y="242.5" class="text">?</text>
+            <text x="206" y="270.5" class="text">0</text>
+            <text x="207" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_05">
+            <text x="227" y="242.5" class="text">?</text>
+            <text x="226" y="270.5" class="text">0</text>
+            <text x="227" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_06">
+            <text x="247" y="242.5" class="text">?</text>
+            <text x="246" y="270.5" class="text">0</text>
+            <text x="247" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_07">
+            <text x="267" y="242.5" class="text">?</text>
+            <text x="266" y="270.5" class="text">0</text>
+            <text x="267" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_08">
+            <text x="287" y="242.5" class="text">?</text>
+            <text x="286" y="270.5" class="text">0</text>
+            <text x="287" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_09">
+            <text x="307" y="242.5" class="text">?</text>
+            <text x="306" y="270.5" class="text">0</text>
+            <text x="307" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_10">
+            <text x="327" y="242.5" class="text">?</text>
+            <text x="326" y="270.5" class="text">0</text>
+            <text x="327" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_11">
+            <text x="347" y="242.5" class="text">?</text>
+            <text x="346" y="270.5" class="text">0</text>
+            <text x="347" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_12">
+            <text x="367" y="242.5" class="text">?</text>
+            <text x="366" y="270.5" class="text">0</text>
+            <text x="367" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_13">
+            <text x="387" y="242.5" class="text">?</text>
+            <text x="386" y="270.5" class="text">0</text>
+            <text x="387" y="297" class="text">?</text>
+        </g>
+        <g id="a2_f14_question_14">
+            <text x="407" y="242.5" class="text">?</text>
+            <text x="406" y="270.5" class="text">0</text>
+            <text x="407" y="297" class="text">?</text>
+        </g>
+        <text id="a2_f14_pad_3_iv" x="406" y="243.5" class="text" opacity="0">A</text>
+        <text id="a2_f14_pad_4_iv" x="385" y="243.5" class="text" opacity="0">M</text>
+        <text id="a2_f14_pad_5_iv" x="365" y="243.5" class="text" opacity="0">H</text>
+        <text id="a2_f14_pad_6_iv" x="345" y="243.5" class="text" opacity="0">Q</text>
+        <text id="a2_f14_pad_7_iv" x="326" y="243.5" class="text" opacity="0">P</text>
+        <text id="a2_f14_pad_8_iv" x="305" y="243.5" class="text" opacity="0">O</text>
+        <text id="a2_f14_pad_9_iv" x="285" y="243.5" class="text" opacity="0">N</text>
+        <text id="a2_f14_pad_10_iv" x="265" y="243.5" class="text" opacity="0">L</text>
+        <text id="a2_f14_pad_11_iv" x="246" y="243.5" class="text" opacity="0">H</text>
+        <text id="a2_f14_pad_12_iv" x="224" y="243.5" class="text" opacity="0">W</text>
+        <text id="a2_f14_pad_13_iv" x="206" y="243.5" class="text" opacity="0">E</text>
+        <text id="a2_f14_pad_14_iv" x="186" y="243.5" class="text" opacity="0">D</text>
+        <text id="a2_f14_pad_15_iv" x="165" y="243.5" class="text" opacity="0">C</text>
+        <text id="a2_f14_pad_16_iv" x="145" y="243.5" class="text" opacity="0">A</text>
+    </g>
+
+    <g id="anim_2_frame_15" style="display:none">
+        <g id="a2_f15_fade_out" opacity="1">
+            <text x="24" y="60" class="text">ciphertext block 3</text>
+            <use xlink:href="#ciphertext_3" x="139" y="44" class="violet"/>
+            <use xlink:href="#aes" x="172" y="-43" />
+            <use xlink:href="#xor_symbol" x="463" y="255" />
+            <use xlink:href="#block" x="139" y="254" class="violet"/>
+            <text x="31" y="298" class="text">plaintext block 3</text>
+            <use xlink:href="#block" x="139" y="281" class="yellow"/>
+            <text x="24" y="270" class="text">ciphertext block 2</text>
+            <text x="442.5" y="297" class="text">16</text>
+            <text x="422.5" y="297" class="text">16</text>
+            <text x="402.5" y="297" class="text">16</text>
+            <text x="382.5" y="297" class="text">16</text>
+            <text x="362.5" y="297" class="text">16</text>
+            <text x="342.5" y="297" class="text">16</text>
+            <text x="322.5" y="297" class="text">16</text>
+            <text x="302.5" y="297" class="text">16</text>
+            <text x="282.5" y="297" class="text">16</text>
+            <text x="262.5" y="297" class="text">16</text>
+            <text x="242.5" y="297" class="text">16</text>
+            <text x="222.5" y="297" class="text">16</text>
+            <text x="202.5" y="297" class="text">16</text>
+            <text x="182.5" y="297" class="text">16</text>
+            <text x="162.5" y="297" class="text">16</text>
+            <text x="142.5" y="297" class="text">16</text>
+            <text x="443" y="270" class="text">36</text>
+            <text x="422.5" y="270" class="text">32</text>
+            <text x="402.5" y="270" class="text">54</text>
+            <text x="382.5" y="270" class="text">13</text>
+            <text x="362.5" y="270" class="text">99</text>
+            <text x="342.5" y="270" class="text">95</text>
+            <text x="322.5" y="270" class="text">15</text>
+            <text x="302.5" y="270" class="text">27</text>
+            <text x="282.5" y="270" class="text">82</text>
+            <text x="262.5" y="270" class="text">31</text>
+            <text x="242.5" y="270" class="text">74</text>
+            <text x="222.5" y="270" class="text">61</text>
+            <text x="202.5" y="270" class="text">63</text>
+            <text x="182.5" y="270" class="text">15</text>
+            <text x="162.5" y="270" class="text">22</text>
+            <text x="142.5" y="270" class="text">29</text>
+            <use xlink:href="#tick" x="459" y="277" />
+        </g>
+        <g id="a2_f15_move_block">
+            <text x="9" y="243" class="text">intermediate block 3</text>
+            <use xlink:href="#block" x="139" y="227" class="green"/>
+            <use xlink:href="#xor_3_text" x="139" y="227"/>
+        </g>
+        <g id="a2_f15_fade_in_1" opacity="0">
+            <text x="24" y="152" class="text">ciphertext block 2</text>
+            <use xlink:href="#block" x="139" y="136" class="violet"/>
+            <use xlink:href="#ciphertext_2_text" x="139" y="136" />
+            <use xlink:href="#xor_symbol" x="463" y="166" />
+        </g>
+        <g id="a2_f15_fade_in_2" opacity="0">
+            <text x="31" y="210" class="text">plaintext block 3</text>
+            <use xlink:href="#block" x="139" y="194" class="yellow"/>
+            <use xlink:href="#plaintext_3_text" x="139" y="194" />
+        </g>
+    </g>
+
+    <g id="anim_2_frame_16" style="display:none">
+        <g id="a2_f16_fade_out" opacity="1">
+            <text x="24" y="152" class="text">ciphertext block 2</text>
+            <use xlink:href="#block" x="139" y="136" class="violet"/>
+            <use xlink:href="#ciphertext_2_text" x="139" y="136" />
+            <text x="9" y="181" class="text">intermediate block 3</text>
+            <use xlink:href="#block" x="139" y="165" class="green"/>
+            <use xlink:href="#xor_3_text" x="139" y="165" />
+            <text x="31" y="210" class="text">plaintext block 3</text>
+            <use xlink:href="#block" x="139" y="194" class="yellow"/>
+            <use xlink:href="#plaintext_3_text" x="139" y="194" />
+            <use xlink:href="#xor_symbol" x="463" y="166" />
+        </g>
+        <g id="a2_f16_fade_in" opacity="0">
+            <text x="9" y="109" class="text">intermediate block 1</text>
+            <use xlink:href="#block" x="139" y="93" class="green"/>
+            <text x="9" y="244" class="text">intermediate block 2</text>
+            <use xlink:href="#block" x="139" y="228" class="green"/>
+        </g>
+        <g id="a2_f16_xor_15" opacity="0">
+            <text x="446" y="108.5" class="text">K</text>
+            <text x="446" y="244" class="text">Y</text>
+        </g>
+        <g id="a2_f16_xor_14" opacity="0">
+            <text x="426" y="108.5" class="text">U</text>
+            <text x="426" y="244" class="text">B</text>
+        </g>
+        <g id="a2_f16_xor_13" opacity="0">
+            <text x="407" y="108.5" class="text">B</text>
+            <text x="406" y="244" class="text">Q</text>
+        </g>
+        <g id="a2_f16_xor_12" opacity="0">
+            <text x="386" y="108.5" class="text">Z</text>
+            <text x="386" y="244" class="text">A</text>
+        </g>
+        <g id="a2_f16_xor_11" opacity="0">
+            <text x="367" y="108.5" class="text">R</text>
+            <text x="367" y="244" class="text">C</text>
+        </g>
+        <g id="a2_f16_xor_10" opacity="0">
+            <text x="346" y="108.5" class="text">R</text>
+            <text x="346" y="244" class="text">M</text>
+        </g>
+        <g id="a2_f16_xor_09" opacity="0">
+            <text x="326" y="108.5" class="text">X</text>
+            <text x="326" y="244" class="text">O</text>
+        </g>
+        <g id="a2_f16_xor_08" opacity="0">
+            <text x="306" y="108.5" class="text">L</text>
+            <text x="306" y="244" class="text">P</text>
+        </g>
+        <g id="a2_f16_xor_07" opacity="0">
+            <text x="289" y="108.5" class="text">I</text>
+            <text x="287" y="244" class="text">L</text>
+        </g>
+        <g id="a2_f16_xor_06" opacity="0">
+            <text x="266" y="108.5" class="text">M</text>
+            <text x="266" y="244" class="text">D</text>
+        </g>
+        <g id="a2_f16_xor_05" opacity="0">
+            <text x="247" y="108.5" class="text">U</text>
+            <text x="247" y="244" class="text">V</text>
+        </g>
+        <g id="a2_f16_xor_04" opacity="0">
+            <text x="226" y="108.5" class="text">D</text>
+            <text x="226" y="244" class="text">V</text>
+        </g>
+        <g id="a2_f16_xor_03" opacity="0">
+            <text x="207" y="108.5" class="text">J</text>
+            <text x="207" y="244" class="text">R</text>
+        </g>
+        <g id="a2_f16_xor_02" opacity="0">
+            <text x="187" y="108.5" class="text">P</text>
+            <text x="187" y="244" class="text">E</text>
+        </g>
+        <g id="a2_f16_xor_01" opacity="0">
+            <text x="166" y="108.5" class="text">T</text>
+            <text x="166" y="244" class="text">U</text>
+        </g>
+        <g id="a2_f16_xor_00" opacity="0">
+            <text x="146" y="108.5" class="text">A</text>
+            <text x="146" y="244" class="text">G</text>
+        </g>
+
+        <g id="a2_f16_fade_in_2" opacity="0">
+            <text x="24" y="80" class="text">ciphertext block 0</text>
+            <use xlink:href="#block" x="139" y="65" class="violet"/>
+            <use xlink:href="#ciphertext_0_text" x="139" y="65" />
+            <use xlink:href="#xor_symbol" x="463" y="95" />
+            <text x="24" y="215" class="text">ciphertext block 1</text>
+            <use xlink:href="#block" x="139" y="200" class="violet"/>
+            <use xlink:href="#ciphertext_1_text" x="139" y="200" />
+            <use xlink:href="#xor_symbol" x="463" y="230" />
+        </g>
+        <g id="a2_f16_fade_in_3" opacity="0">
+            <text x="32" y="138" class="text">plaintext block 1</text>
+            <use xlink:href="#block" x="139" y="121" class="yellow"/>
+            <use xlink:href="#plaintext_1_text" x="139" y="121" />
+            <text x="32" y="272" class="text">plaintext block 2</text>
+            <use xlink:href="#block" x="139" y="256" class="yellow"/>
+            <use xlink:href="#plaintext_2_text" x="139" y="256" />
+        </g>
+    </g>
+
+    <g id="anim_2_frame_17" style="display:none">
+        <g id="a2_f17_fade_out" opacity="1">
+            <text x="24" y="80" class="text">ciphertext block 0</text>
+            <use xlink:href="#block" x="139" y="65" class="violet"/>
+            <use xlink:href="#ciphertext_0_text" x="139" y="65" />
+            <text x="9" y="109" class="text">intermediate block 1</text>
+            <use xlink:href="#block" x="139" y="93" class="green"/>
+            <text x="32" y="138" class="text">plaintext block 1</text>
+            <use xlink:href="#block" x="139" y="121" class="yellow"/>
+            <use xlink:href="#plaintext_1_text" x="139" y="121" />
+            <use xlink:href="#xor_symbol" x="463" y="95" />
+            <use xlink:href="#xor_1_text" x="139" y="93"/>
+
+            <text x="24" y="215" class="text">ciphertext block 1</text>
+            <use xlink:href="#block" x="139" y="200" class="violet"/>
+            <use xlink:href="#ciphertext_1_text" x="139" y="200" />
+            <text x="9" y="244" class="text">intermediate block 2</text>
+            <use xlink:href="#block" x="139" y="228" class="green"/>
+            <text x="32" y="272" class="text">plaintext block 2</text>
+            <use xlink:href="#block" x="139" y="256" class="yellow"/>
+            <use xlink:href="#plaintext_2_text" x="139" y="256" />
+            <use xlink:href="#xor_symbol" x="463" y="230" />
+            <use xlink:href="#xor_2_text" x="139" y="227"/>
+        </g>
+        <g id="a2_f17_fade_in" opacity="0">
+            <text x="24" y="156" class="text">ciphertext block 0</text>
+            <use xlink:href="#block" x="139" y="140" class="violet"/>
+            <use xlink:href="#ciphertext_0_text" x="139" y="140" />
+            <text x="17" y="183" class="text">initialisation vector</text>
+            <use xlink:href="#block" x="139" y="168" class="red"/>
+            <use xlink:href="#xor_symbol" x="463" y="169" />
+            <use xlink:href="#question_marks" x="139" y="168"/>
+        </g>
+    </g>
+
+    <g id="anim_2_frame_18" style="display:none">
+        <text x="24" y="156" class="text">ciphertext block 0</text>
+        <use xlink:href="#block" x="139" y="140" class="violet"/>
+        <use xlink:href="#ciphertext_0_text" x="139" y="140" />
+        <text x="17" y="183" class="text">initialisation vector</text>
+        <use xlink:href="#xor_symbol" x="463" y="169" />
+        <g id="a2_f18_fade_out" opacity="1">
+            <use xlink:href="#block" x="139" y="168" class="red"/>
+            <use xlink:href="#question_marks" x="139" y="168"/>
+        </g>
+        <g id="a2_f18_fade_in_1" opacity="0">
+            <use xlink:href="#iv" x="139" y="168" class="blue"/>
+        </g>
+        <g id="a2_f18_fade_in_2" opacity="0">
+            <text x="32" y="212" class="text">plaintext block 0</text>
+            <use xlink:href="#block" x="139" y="196" class="yellow"/>
+            <use xlink:href="#plaintext_0_text" x="139" y="196" />
+        </g>
+    </g>
+
+    <g id="anim_2_frame_19" style="display:none">
+        <g id="a2_f19_fade_out">
+            <text x="24" y="156" class="text">ciphertext block 0</text>
+            <use xlink:href="#block" x="139" y="140" class="violet"/>
+            <use xlink:href="#ciphertext_0_text" x="139" y="140" />
+
+            <text x="17" y="183" class="text">initialisation vector</text>
+            <use xlink:href="#iv" x="139" y="168" class="blue"/>
+            <use xlink:href="#xor_symbol" x="463" y="169" />
+        </g>
+        
+        <g id="a2_f19_move">
+            <text x="32" y="212" class="text">plaintext block 0</text>
+            <use xlink:href="#block" x="139" y="196" class="yellow"/>
+            <use xlink:href="#plaintext_0_text" x="139" y="196" />
+        </g>
+        <g id="a2_f19_fade_in" opacity="0">
+            <text x="32" y="160" class="text">plaintext block 1</text>
+            <text x="32" y="188" class="text">plaintext block 2</text>
+            <text x="32" y="216" class="text">plaintext block 3</text>
+            <use xlink:href="#plaintext_1" x="139" y="144" class="yellow"/>
+            <use xlink:href="#plaintext_2" x="139" y="172" class="yellow"/>
+            <use xlink:href="#plaintext_3" x="139" y="200" class="yellow"/>
+        </g>
+    </g>
+    <g id="anim_2_frame_20" style="display:none">
+        <text x="32" y="132" class="text">plaintext block 0</text>
+        <text x="32" y="160" class="text">plaintext block 1</text>
+        <text x="32" y="188" class="text">plaintext block 2</text>
+        <text x="32" y="216" class="text">plaintext block 3</text>
+        <use xlink:href="#plaintext_0" x="139" y="116" class="yellow"/>
+        <use xlink:href="#plaintext_1" x="139" y="144" class="yellow"/>
+        <use xlink:href="#plaintext_2" x="139" y="172" class="yellow"/>
+        <use xlink:href="#plaintext_3" x="139" y="200" class="yellow"/>
+    </g>
+</svg>

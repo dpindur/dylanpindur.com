@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+    <title>Dylan Pindur | Padding Oracles: An Animated Primer</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CPT+Sans:400,400i,700" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="css/animation-styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <p>
+            <a href="/">Dylan Pindur</a>
+            |
+            <a href="/blog">Blog</a>
+            |
+            <a href="/contact">Contact</a>
+        </p>
+    </header>
+    <article>
+        <header>
+            <h1>Padding Oracles: An Animated Primer</h1>
+            <span class="date">Thu, Aug 27, 2020</span>
+        </header>
+        <section>
+            <h2>A Bit of Background</h2>
+            <p>
+                I recently encountered a fun little padding oracle attack as part of a CTF and found surprisingly few articles online outlining the attack. Of the articles I did find, most either discussed specific instances of the attack (<a href="https://en.wikipedia.org/wiki/POODLE">POODLE</a>) or described a lengthy sequence of mathematical operations which were difficult to follow. In this post I want to present a different, more visual description of the attack in the hope that some may find it useful and easier to understand.
+            </p>
+        </section>
+        <section>
+            <h2>Cipher Modes</h2>
+            <p>
+                Before talking about padding oracles, we need to talk about cipher modes. Padding oracles are most commonly associated with block ciphers operating in Cipher Block Chaining (CBC) mode. In CBC mode each block of plaintext is mixed with the previous block before encryption. This prevents information leakage associated with the simpler Electronic Codebook (ECB) mode. In ECB mode each block is encrypted with the same key and so the same plaintext is always encrypted to the same ciphertext. This means patterns present in the plaintext will likely still be present in the ciphertext. We can see this in the images below comparing ECB and CBC modes.
+            </p>
+            <figure>
+                <figure class="inline">
+                    <img src="img/001-plain.jpg" alt="Unencrypted Image" style="display:inline"/>
+                    <figcaption>Original image</figcaption>
+                </figure>
+                <figure class="inline">
+                    <img src="img/002-ecb.jpg" alt="Image Encrypted using ECB Mode"  style="display:inline"/>
+                    <figcaption>Encrypted using ECB mode</figcaption>
+                </figure>
+                <figure class="inline">
+                    <img src="img/003-cbc.jpg" alt="Image Encrypted using CBC Mode" style="display:inline" />
+                    <figcaption>Encrypted using CBC mode</figcaption>
+                </figure>
+                <figcaption>From <a href="https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation">Wikipedia - Block cipher mode of operation</a>.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>AES Encryption</h2>
+            <p>
+                Now that we understand the different encryption modes we can begin exploring how a message is encrypted and then onto the decryption stage where our padding oracle will enable us to decrypt the message without knowing the key.
+            </p>
+            <svg id="animation-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340"></svg>
+            <button id="animation-1-previous-btn">Previous</button>
+            <button id="animation-1-next-btn">Next</button>
+            <p id="animation-1-explanation"></p>
+        </section>
+        <section>
+            <h2>Padding Oracles</h2>
+            <p>
+                Onto the padding oracle. The decryption process for CBC mode ciphers is to decrypt all blocks, validate and remove the padding then return the plaintext. How the server responds based on invalid padding will determine whether or not we can perform the attack.
+            </p>
+            <p>
+                A padding oracle attack exploits the padding validation step of decryption in order to decrypt the message without knowing the key. The attack relies on having a padding oracle which reveals whether or not a message is correctly padded. Typically this will be the decryption server responding with a verbose error message indicating the padding is invalid. However, other channels are also possible. For example a server may take longer to reply if a message is incorrectly padded, as long as it can be inferred whether or not a message is correctly padded the attack can be performed.
+            </p>
+            <p>
+                Now that we know what we’re looking for in a padding oracle we can walk through the decryption of our message and perform a padding oracle attack.
+            </p>
+            <svg id="animation-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340"></svg>
+            <button id="animation-2-previous-btn">Previous</button>
+            <button id="animation-2-next-btn">Next</button>
+            <p id="animation-2-explanation"></p>
+        </section>
+        <section>
+            <h2>Mitigations</h2>
+            <p>
+                So what can we do to prevent this attack? The obvious fix is to not reveal whether or not a message is correctly padded. However, this is easier said than done. Providing a generic error if a message fails to decrypt will eliminate any obvious padding oracles. But timing-based padding oracles are much harder to detect and prevent. In a timing-based padding oracle, rather than an error message indicating invalid padding a server may take a noticibly different amount of time to process a correctly padded message from an incorrectly padded message. How long it takes the server to respond can then be used to determine if a message is correctly padded or not.
+            </p>
+            <p>
+                A much better approach is to encrypt the message and then append a Message Authentication Code (MAC) to verify the integrity of the ciphertext. The MAC is then validated by the server before any decryption occurs. If the validation fails, it indicates the message has been tampered with. The server can then refuse to continue decrypting the message. This ensures that there is no padding oracle, regardless of implementation details such as timings and error messages.
+            </p>
+        </section>
+        <section>
+            <h2>Closing Thoughts</h2>
+            <p>
+                Hopefully this has helped explain padding oracles a little better. As well as illustrate how important it is to understand how to correctly implement cryptographic code as one small mistake can very quickly bring it tumbling down. An interesting takeaway is that this technique is not just limited to decryption. Padding oracles can also be exploited to forge valid ciphertext without knowing the key, but I'll leave that as an exercise for the reader. If you ever see a system which assumes that an encrypted value cannot be tampered with (session tokens are good ones), don't forget to check for padding oracles.
+            </p>
+            <p>
+                If you're interested in learning more please check out the links below. They really helped me while I was writing this article.
+            </p>
+            <ul>
+                <li><a href="https://blog.skullsecurity.org/2013/padding-oracle-attacks-in-depth">Padding oracle attacks: in depth</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/HMAC">Hashed Message Authentication Codes</a></li>
+                <li><a href="https://animejs.com/">Anime.js</a> - used to create the animations above</li>
+            </ul>
+        </section>
+    </article>
+
+    <script src="js/anime.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/animation-frames-1.js"></script>
+    <script src="js/animation-frames-2.js"></script>
+</body>
+</html>

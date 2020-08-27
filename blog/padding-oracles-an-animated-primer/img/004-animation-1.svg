@@ -1,0 +1,1287 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340">
+    <symbol id="block">
+        <rect x="1" y="1" width="20" height="20" />
+        <rect x="21" y="1" width="20" height="20" />
+        <rect x="41" y="1" width="20" height="20" />
+        <rect x="61" y="1" width="20" height="20" />
+        <rect x="81" y="1" width="20" height="20" />
+        <rect x="101" y="1" width="20" height="20" />
+        <rect x="121" y="1" width="20" height="20" />
+        <rect x="141" y="1" width="20" height="20" />
+        <rect x="161" y="1" width="20" height="20" />
+        <rect x="181" y="1" width="20" height="20" />
+        <rect x="201" y="1" width="20" height="20" />
+        <rect x="221" y="1" width="20" height="20" />
+        <rect x="241" y="1" width="20" height="20" />
+        <rect x="261" y="1" width="20" height="20" />
+        <rect x="281" y="1" width="20" height="20" />
+        <rect x="301" y="1" width="20" height="20" />
+    </symbol>
+    <symbol id="plaintext_0_text">
+        <text x="6" y="16.5" class="text">H</text>
+        <text x="26" y="16.5" class="text">E</text>
+        <text x="47" y="16.5" class="text">L</text>
+        <text x="67" y="16.5" class="text">L</text>
+        <text x="86" y="16.5" class="text">O</text>
+        <text x="108" y="16.5" class="text">_</text>
+        <text x="125" y="16.5" class="text">W</text>
+        <text x="146" y="16.5" class="text">O</text>
+        <text x="166" y="16.5" class="text">R</text>
+        <text x="186" y="16.5" class="text">L</text>
+        <text x="206" y="16.5" class="text">D</text>
+        <text x="228" y="16.5" class="text">_</text>
+        <text x="246" y="16.5" class="text">W</text>
+        <text x="266" y="16.5" class="text">H</text>
+        <text x="286" y="16.5" class="text">O</text>
+        <text x="308" y="16.5" class="text">_</text>
+    </symbol>
+    <symbol id="plaintext_0">
+        <use xlink:href="#block" />
+        <use xlink:href="#plaintext_0_text" />
+    </symbol>
+    <symbol id="plaintext_1_text">
+        <text x="6" y="16.5" class="text">W</text>
+        <text x="27" y="16.5" class="text">A</text>
+        <text x="46" y="16.5" class="text">N</text>
+        <text x="67" y="16.5" class="text">T</text>
+        <text x="86" y="16.5" class="text">S</text>
+        <text x="108" y="16.5" class="text">_</text>
+        <text x="126" y="16.5" class="text">T</text>
+        <text x="146" y="16.5" class="text">O</text>
+        <text x="168" y="16.5" class="text">_</text>
+        <text x="186" y="16.5" class="text">L</text>
+        <text x="206" y="16.5" class="text">E</text>
+        <text x="227" y="16.5" class="text">A</text>
+        <text x="246" y="16.5" class="text">R</text>
+        <text x="266" y="16.5" class="text">N</text>
+        <text x="288" y="16.5" class="text">_</text>
+        <text x="307" y="16.5" class="text">A</text>
+    </symbol>
+    <symbol id="plaintext_1">
+        <use xlink:href="#block" />
+        <use xlink:href="#plaintext_1_text" />
+    </symbol>
+    <symbol id="plaintext_2_text">
+        <text x="6" y="16.5" class="text">B</text>
+        <text x="26" y="16.5" class="text">O</text>
+        <text x="47" y="16.5" class="text">U</text>
+        <text x="67" y="16.5" class="text">T</text>
+        <text x="88" y="16.5" class="text">_</text>
+        <text x="106" y="16.5" class="text">P</text>
+        <text x="126" y="16.5" class="text">A</text>
+        <text x="146" y="16.5" class="text">D</text>
+        <text x="166" y="16.5" class="text">D</text>
+        <text x="188" y="16.5" class="text">I</text>
+        <text x="206" y="16.5" class="text">N</text>
+        <text x="226" y="16.5" class="text">G</text>
+        <text x="248" y="16.5" class="text">_</text>
+        <text x="266" y="16.5" class="text">O</text>
+        <text x="287" y="16.5" class="text">R</text>
+        <text x="307" y="16.5" class="text">A</text>
+    </symbol>
+    <symbol id="plaintext_2">
+        <use xlink:href="#block" />
+        <use xlink:href="#plaintext_2_text" />
+    </symbol>
+    <symbol id="plaintext_3_text">
+        <text x="6" y="16.5" class="text">C</text>
+        <text x="26" y="16.5" class="text">L</text>
+        <text x="47" y="16.5" class="text">E</text>
+        <text x="67" y="16.5" class="text">S</text>
+        <text x="88" y="16.5" class="text">?</text>
+        <text x="105" y="15.5" class="text-sm">11</text>
+        <text x="125" y="15.5" class="text-sm">11</text>
+        <text x="145" y="15.5" class="text-sm">11</text>
+        <text x="165" y="15.5" class="text-sm">11</text>
+        <text x="185" y="15.5" class="text-sm">11</text>
+        <text x="205" y="15.5" class="text-sm">11</text>
+        <text x="225" y="15.5" class="text-sm">11</text>
+        <text x="245" y="15.5" class="text-sm">11</text>
+        <text x="265" y="15.5" class="text-sm">11</text>
+        <text x="285" y="15.5" class="text-sm">11</text>
+        <text x="305" y="15.5" class="text-sm">11</text>
+    </symbol>
+    <symbol id="plaintext_3">
+        <use xlink:href="#block" />
+        <use xlink:href="#plaintext_3_text" />
+    </symbol>
+
+    <symbol id="iv">
+        <use xlink:href="#block" />
+        <text x="6" y="16.5" class="text">A</text>
+        <text x="26" y="16.5" class="text">D</text>
+        <text x="47" y="16.5" class="text">P</text>
+        <text x="67" y="16.5" class="text">B</text>
+        <text x="86" y="16.5" class="text">H</text>
+        <text x="107" y="16.5" class="text">Y</text>
+        <text x="126" y="16.5" class="text">N</text>
+        <text x="149" y="16.5" class="text">J</text>
+        <text x="166" y="16.5" class="text">U</text>
+        <text x="186" y="16.5" class="text">Z</text>
+        <text x="206" y="16.5" class="text">R</text>
+        <text x="227" y="16.5" class="text">T</text>
+        <text x="246" y="16.5" class="text">C</text>
+        <text x="267" y="16.5" class="text">S</text>
+        <text x="286" y="16.5" class="text">H</text>
+        <text x="308" y="16.5" class="text">E</text>
+    </symbol>
+
+    <symbol id="xor_0">
+        <use xlink:href="#block" />
+        <text x="7" y="16.5" class="text">E</text>
+        <text x="28.5" y="16.5" class="text">J</text>
+        <text x="46" y="16.5" class="text">O</text>
+        <text x="67" y="16.5" class="text">R</text>
+        <text x="86" y="16.5" class="text">Q</text>
+        <text x="107" y="16.5" class="text">Z</text>
+        <text x="125.5" y="16.5" class="text">M</text>
+        <text x="148" y="16.5" class="text">S</text>
+        <text x="166" y="16.5" class="text">A</text>
+        <text x="186" y="16.5" class="text">K</text>
+        <text x="207" y="16.5" class="text">F</text>
+        <text x="226.5" y="16.5" class="text">X</text>
+        <text x="246" y="16.5" class="text">C</text>
+        <text x="267" y="16.5" class="text">F</text>
+        <text x="286" y="16.5" class="text">G</text>
+        <text x="306.5" y="16.5" class="text">H</text>
+    </symbol>
+    <symbol id="xor_1_text">
+        <text x="6" y="16.5" class="text">A</text>
+        <text x="26" y="16.5" class="text">T</text>
+        <text x="47" y="16.5" class="text">P</text>
+        <text x="67" y="16.5" class="text">J</text>
+        <text x="86" y="16.5" class="text">D</text>
+        <text x="107" y="16.5" class="text">U</text>
+        <text x="126" y="16.5" class="text">M</text>
+        <text x="149" y="16.5" class="text">I</text>
+        <text x="166" y="16.5" class="text">L</text>
+        <text x="186" y="16.5" class="text">X</text>
+        <text x="206" y="16.5" class="text">R</text>
+        <text x="227" y="16.5" class="text">R</text>
+        <text x="246" y="16.5" class="text">Z</text>
+        <text x="267" y="16.5" class="text">B</text>
+        <text x="286" y="16.5" class="text">U</text>
+        <text x="308" y="16.5" class="text">K</text>
+    </symbol>
+    <symbol id="xor_1">
+        <use xlink:href="#block" />
+        <use xlink:href="#xor_1_text" />
+    </symbol>
+    <symbol id="xor_2_text">
+        <text x="6" y="16.5" class="text">G</text>
+        <text x="26" y="16.5" class="text">U</text>
+        <text x="47" y="16.5" class="text">E</text>
+        <text x="67" y="16.5" class="text">R</text>
+        <text x="86" y="16.5" class="text">V</text>
+        <text x="107" y="16.5" class="text">V</text>
+        <text x="126" y="16.5" class="text">D</text>
+        <text x="147" y="16.5" class="text">L</text>
+        <text x="166" y="16.5" class="text">P</text>
+        <text x="186" y="16.5" class="text">O</text>
+        <text x="206" y="16.5" class="text">M</text>
+        <text x="227" y="16.5" class="text">C</text>
+        <text x="246" y="16.5" class="text">A</text>
+        <text x="266" y="16.5" class="text">Q</text>
+        <text x="286" y="16.5" class="text">B</text>
+        <text x="308" y="16.5" class="text">Y</text>
+    </symbol>
+    <symbol id="xor_2">
+        <use xlink:href="#block" />
+        <use xlink:href="#xor_2_text" />
+    </symbol>
+    <symbol id="xor_3_text">
+        <text x="6" y="16.5" class="text">A</text>
+        <text x="26" y="16.5" class="text">C</text>
+        <text x="47" y="16.5" class="text">D</text>
+        <text x="67" y="16.5" class="text">E</text>
+        <text x="85" y="16.5" class="text">W</text>
+        <text x="107" y="16.5" class="text">H</text>
+        <text x="126" y="16.5" class="text">L</text>
+        <text x="146" y="16.5" class="text">N</text>
+        <text x="166" y="16.5" class="text">O</text>
+        <text x="187" y="16.5" class="text">P</text>
+        <text x="206" y="16.5" class="text">Q</text>
+        <text x="226" y="16.5" class="text">H</text>
+        <text x="246" y="16.5" class="text">M</text>
+        <text x="267" y="16.5" class="text">A</text>
+        <text x="286" y="16.5" class="text">Z</text>
+        <text x="306" y="16.5" class="text">X</text>
+    </symbol>
+    <symbol id="xor_3">
+        <use xlink:href="#block" />
+        <use xlink:href="#xor_3_text" />
+    </symbol>
+    <symbol id="ciphertext_0_text">
+        <text x="6" y="16.5" class="text">D</text>
+        <text x="26" y="16.5" class="text">A</text>
+        <text x="45" y="16.5" class="text">W</text>
+        <text x="67" y="16.5" class="text">P</text>
+        <text x="86" y="16.5" class="text">F</text>
+        <text x="107" y="16.5" class="text">E</text>
+        <text x="126" y="16.5" class="text">R</text>
+        <text x="147" y="16.5" class="text">X</text>
+        <text x="167" y="16.5" class="text">X</text>
+        <text x="186" y="16.5" class="text">Q</text>
+        <text x="207" y="16.5" class="text">P</text>
+        <text x="227" y="16.5" class="text">L</text>
+        <text x="246" y="16.5" class="text">N</text>
+        <text x="267" y="16.5" class="text">V</text>
+        <text x="287" y="16.5" class="text">T</text>
+        <text x="308" y="16.5" class="text">R</text>
+    </symbol>
+    <symbol id="ciphertext_0">
+        <use xlink:href="#block" />
+        <use xlink:href="#ciphertext_0_text" />
+    </symbol>
+    <symbol id="ciphertext_1_text">
+        <text x="6" y="16.5" class="text">G</text>
+        <text x="26" y="16.5" class="text">P</text>
+        <text x="47" y="16.5" class="text">L</text>
+        <text x="67" y="16.5" class="text">Y</text>
+        <text x="86" y="16.5" class="text">U</text>
+        <text x="107" y="16.5" class="text">F</text>
+        <text x="127" y="16.5" class="text">F</text>
+        <text x="145" y="16.5" class="text">W</text>
+        <text x="166" y="16.5" class="text">Q</text>
+        <text x="186" y="16.5" class="text">V</text>
+        <text x="206" y="16.5" class="text">O</text>
+        <text x="229" y="16.5" class="text">J</text>
+        <text x="246" y="16.5" class="text">K</text>
+        <text x="267" y="16.5" class="text">X</text>
+        <text x="286" y="16.5" class="text">R</text>
+        <text x="307" y="16.5" class="text">D</text>
+    </symbol>
+    <symbol id="ciphertext_1">
+        <use xlink:href="#block" />
+        <use xlink:href="#ciphertext_1_text" />
+    </symbol>
+    <symbol id="ciphertext_2_text">
+        <text x="6" y="16.5" class="text">Y</text>
+        <text x="26" y="16.5" class="text">U</text>
+        <text x="49" y="16.5" class="text">J</text>
+        <text x="67" y="16.5" class="text">K</text>
+        <text x="86" y="16.5" class="text">F</text>
+        <text x="107" y="16.5" class="text">B</text>
+        <text x="127" y="16.5" class="text">Y</text>
+        <text x="147" y="16.5" class="text">P</text>
+        <text x="166" y="16.5" class="text">W</text>
+        <text x="187" y="16.5" class="text">Z</text>
+        <text x="206" y="16.5" class="text">M</text>
+        <text x="227" y="16.5" class="text">N</text>
+        <text x="249" y="16.5" class="text">J</text>
+        <text x="267" y="16.5" class="text">G</text>
+        <text x="287" y="16.5" class="text">T</text>
+        <text x="308" y="16.5" class="text">F</text>
+    </symbol>
+    <symbol id="ciphertext_2">
+        <use xlink:href="#block" />
+        <use xlink:href="#ciphertext_2_text" />
+    </symbol>
+    <symbol id="ciphertext_3_text">
+        <text x="6" y="16.5" class="text">G</text>
+        <text x="26" y="16.5" class="text">A</text>
+        <text x="46" y="16.5" class="text">O</text>
+        <text x="67" y="16.5" class="text">E</text>
+        <text x="86" y="16.5" class="text">G</text>
+        <text x="106" y="16.5" class="text">M</text>
+        <text x="125" y="16.5" class="text">W</text>
+        <text x="146" y="16.5" class="text">D</text>
+        <text x="167" y="16.5" class="text">A</text>
+        <text x="186" y="16.5" class="text">C</text>
+        <text x="207" y="16.5" class="text">R</text>
+        <text x="227" y="16.5" class="text">S</text>
+        <text x="248" y="16.5" class="text">J</text>
+        <text x="267" y="16.5" class="text">Z</text>
+        <text x="286" y="16.5" class="text">U</text>
+        <text x="308" y="16.5" class="text">P</text>
+    </symbol>
+    <symbol id="ciphertext_3">
+        <use xlink:href="#block" />
+        <use xlink:href="#ciphertext_3_text" />
+    </symbol>
+    <symbol id="question_marks">
+        <text x="8" y="16.5" class="text">?</text>
+        <text x="28" y="16.5" class="text">?</text>
+        <text x="48" y="16.5" class="text">?</text>
+        <text x="68" y="16.5" class="text">?</text>
+        <text x="88" y="16.5" class="text">?</text>
+        <text x="108" y="16.5" class="text">?</text>
+        <text x="128" y="16.5" class="text">?</text>
+        <text x="148" y="16.5" class="text">?</text>
+        <text x="168" y="16.5" class="text">?</text>
+        <text x="188" y="16.5" class="text">?</text>
+        <text x="208" y="16.5" class="text">?</text>
+        <text x="228" y="16.5" class="text">?</text>
+        <text x="248" y="16.5" class="text">?</text>
+        <text x="268" y="16.5" class="text">?</text>
+        <text x="288" y="16.5" class="text">?</text>
+        <text x="308" y="16.5" class="text">?</text>
+    </symbol>
+    <symbol id="question_marks_15">
+        <text x="8" y="16.5" class="text">?</text>
+        <text x="28" y="16.5" class="text">?</text>
+        <text x="48" y="16.5" class="text">?</text>
+        <text x="68" y="16.5" class="text">?</text>
+        <text x="88" y="16.5" class="text">?</text>
+        <text x="108" y="16.5" class="text">?</text>
+        <text x="128" y="16.5" class="text">?</text>
+        <text x="148" y="16.5" class="text">?</text>
+        <text x="168" y="16.5" class="text">?</text>
+        <text x="188" y="16.5" class="text">?</text>
+        <text x="208" y="16.5" class="text">?</text>
+        <text x="228" y="16.5" class="text">?</text>
+        <text x="248" y="16.5" class="text">?</text>
+        <text x="268" y="16.5" class="text">?</text>
+        <text x="288" y="16.5" class="text">?</text>
+    </symbol>
+    <symbol id="question_marks_14">
+        <text x="8" y="16.5" class="text">?</text>
+        <text x="28" y="16.5" class="text">?</text>
+        <text x="48" y="16.5" class="text">?</text>
+        <text x="68" y="16.5" class="text">?</text>
+        <text x="88" y="16.5" class="text">?</text>
+        <text x="108" y="16.5" class="text">?</text>
+        <text x="128" y="16.5" class="text">?</text>
+        <text x="148" y="16.5" class="text">?</text>
+        <text x="168" y="16.5" class="text">?</text>
+        <text x="188" y="16.5" class="text">?</text>
+        <text x="208" y="16.5" class="text">?</text>
+        <text x="228" y="16.5" class="text">?</text>
+        <text x="248" y="16.5" class="text">?</text>
+        <text x="268" y="16.5" class="text">?</text>
+    </symbol>
+    <symbol id="zeroes">
+        <text x="8" y="16.5" class="text">0</text>
+        <text x="28" y="16.5" class="text">0</text>
+        <text x="48" y="16.5" class="text">0</text>
+        <text x="68" y="16.5" class="text">0</text>
+        <text x="88" y="16.5" class="text">0</text>
+        <text x="108" y="16.5" class="text">0</text>
+        <text x="128" y="16.5" class="text">0</text>
+        <text x="148" y="16.5" class="text">0</text>
+        <text x="168" y="16.5" class="text">0</text>
+        <text x="188" y="16.5" class="text">0</text>
+        <text x="208" y="16.5" class="text">0</text>
+        <text x="228" y="16.5" class="text">0</text>
+        <text x="248" y="16.5" class="text">0</text>
+        <text x="268" y="16.5" class="text">0</text>
+        <text x="288" y="16.5" class="text">0</text>
+        <text x="308" y="16.5" class="text">0</text>
+    </symbol>
+    <symbol id="zeroes_15">
+        <text x="8" y="16.5" class="text">0</text>
+        <text x="28" y="16.5" class="text">0</text>
+        <text x="48" y="16.5" class="text">0</text>
+        <text x="68" y="16.5" class="text">0</text>
+        <text x="88" y="16.5" class="text">0</text>
+        <text x="108" y="16.5" class="text">0</text>
+        <text x="128" y="16.5" class="text">0</text>
+        <text x="148" y="16.5" class="text">0</text>
+        <text x="168" y="16.5" class="text">0</text>
+        <text x="188" y="16.5" class="text">0</text>
+        <text x="208" y="16.5" class="text">0</text>
+        <text x="228" y="16.5" class="text">0</text>
+        <text x="248" y="16.5" class="text">0</text>
+        <text x="268" y="16.5" class="text">0</text>
+        <text x="288" y="16.5" class="text">0</text>
+    </symbol>
+    <symbol id="zeroes_14">
+        <text x="8" y="16.5" class="text">0</text>
+        <text x="28" y="16.5" class="text">0</text>
+        <text x="48" y="16.5" class="text">0</text>
+        <text x="68" y="16.5" class="text">0</text>
+        <text x="88" y="16.5" class="text">0</text>
+        <text x="108" y="16.5" class="text">0</text>
+        <text x="128" y="16.5" class="text">0</text>
+        <text x="148" y="16.5" class="text">0</text>
+        <text x="168" y="16.5" class="text">0</text>
+        <text x="188" y="16.5" class="text">0</text>
+        <text x="208" y="16.5" class="text">0</text>
+        <text x="228" y="16.5" class="text">0</text>
+        <text x="248" y="16.5" class="text">0</text>
+        <text x="268" y="16.5" class="text">0</text>
+    </symbol>
+    <symbol id="aes_no_arrow">
+        <rect x="71.7" y="152" class="red" width="112.6" height="77.5" />
+        <text x="92" y="185" class="text">block cipher</text>
+        <text x="96" y="205" class="text">encryption</text>
+        <line class="white" x1="128" y1="118.5" x2="128" y2="143" />
+        <polygon points="124.3,140.2 128,141.8 131.7,140.2 128,149" />
+        <line class="white" x1="26" y1="191" x2="61" y2="191" />
+        <polygon points="58.2,194.7 59.8,191 58.2,187.3 67,191" />
+        <text x="1" y="194" class="text">key</text>
+    </symbol>
+    <symbol id="aes">
+        <rect x="71.7" y="152" class="red" width="112.6" height="77.5" />
+        <text x="92" y="185" class="text">block cipher</text>
+        <text x="96" y="205" class="text">encryption</text>
+        <line class="white" x1="128" y1="118.5" x2="128" y2="143" />
+        <polygon points="124.3,140.2 128,141.8 131.7,140.2 128,149" />
+        <line class="white" x1="26" y1="191" x2="61" y2="191" />
+        <polygon points="58.2,194.7 59.8,191 58.2,187.3 67,191" />
+        <text x="1" y="194" class="text">key</text>
+        <line class="white" x1="128" y1="233.5" x2="128" y2="258" />
+        <polygon points="124.3,255.2 128,256.8 131.7,255.2 128,264" />
+    </symbol>
+    <symbol id="down_arrow">
+        <line class="white" x1="128" y1="233.5" x2="128" y2="258" />
+        <polygon points="124.3,255.2 128,256.8 131.7,255.2 128,264" />
+    </symbol>
+    <symbol id="cross">
+        <polygon fill="#ffabdf" points="12,1.75 10.25,0 6,4.25 1.75,0 0,1.75 4.25,6 0,10.25 1.75,12 6,7.75 10.25,12 12,10.25 7.75,6" />
+    </symbol>
+    <symbol id="tick">
+        <path fill="#7BFFBD" d="M8.4 16.8 L10.5 14.7 L12.6 16.8L18.9 10.5 L21 12.6 L12.6 21 Z" />
+    </symbol>
+    <symbol id="xor_symbol">
+        <circle class="white" cx="10" cy="10" r="6" />
+        <line class="white" x1="10" y1="4" x2="10" y2="16" />
+        <line class="white" x1="4" y1="10" x2="16" y2="10" />
+    </symbol>
+
+    <g id="main">
+    <g id="frame_0">
+        <g id="frame_0_text">
+            <text x="90" y="174" class="text">HELLO_WORLD_WHO_WANTS_TO_LEARN_ABOUT_PADDING_ORACLES?</text>
+        </g>
+        <g id="frame_0_block" style="opacity:0">
+            <use xlink:href="#block" x="139.5" y="96.5" class="yellow" />
+        </g>
+    </g>
+
+    <g id="frame_1" style="display:none">
+        <g id="frame_1_block_0">
+            <use xlink:href="#block" x="139.5" y="96.5" class="yellow" />
+        </g>
+        <g id="frame_1_block_1" opacity="0">
+            <use xlink:href="#block" x="139.5" y="129.5" class="yellow" />
+        </g>
+        <g id="frame_1_block_2" opacity="0">
+            <use xlink:href="#block" x="139.5" y="162.5" class="yellow" />
+        </g>
+        <g id="frame_1_block_3" opacity="0">
+            <use xlink:href="#block" x="139.5" y="195.5" class="yellow" />
+        </g>
+        <g id="frame_1_text">
+            <g id="frame_1_letter_00">
+                <text x="90" y="44" class="text">H</text>
+            </g>
+            <g id="frame_1_letter_01">
+                <text x="99.5" y="44" class="text">E</text>
+            </g>
+            <g id="frame_1_letter_02">
+                <text x="107" y="44" class="text">L</text>
+            </g>
+            <g id="frame_1_letter_03">
+                <text x="114" y="44" class="text">L</text>
+            </g>
+            <g id="frame_1_letter_04">
+                <text x="120.5" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_05">
+                <text x="130" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_06">
+                <text x="136" y="44" class="text">W</text>
+            </g>
+            <g id="frame_1_letter_07">
+                <text x="147" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_08">
+                <text x="157" y="44" class="text">R</text>
+            </g>
+            <g id="frame_1_letter_09">
+                <text x="165" y="44" class="text">L</text>
+            </g>
+            <g id="frame_1_letter_10">
+                <text x="172" y="44" class="text">D</text>
+            </g>
+            <g id="frame_1_letter_11">
+                <text x="181" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_12">
+                <text x="187" y="44" class="text">W</text>
+            </g>
+            <g id="frame_1_letter_13">
+                <text x="199" y="44" class="text">H</text>
+            </g>
+            <g id="frame_1_letter_14">
+                <text x="208" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_15">
+                <text x="217.5" y="44" class="text">_</text>
+            </g>
+
+            <g id="frame_1_letter_16">
+                <text x="223.5" y="44" class="text">W</text>
+            </g>
+            <g id="frame_1_letter_17">
+                <text x="234.5" y="44" class="text">A</text>
+            </g>
+            <g id="frame_1_letter_18">
+                <text x="243" y="44" class="text">N</text>
+            </g>
+            <g id="frame_1_letter_19">
+                <text x="252" y="44" class="text">T</text>
+            </g>
+            <g id="frame_1_letter_20">
+                <text x="260" y="44" class="text">S</text>
+            </g>
+            <g id="frame_1_letter_21">
+                <text x="267" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_22">
+                <text x="273" y="44" class="text">T</text>
+            </g>
+            <g id="frame_1_letter_23">
+                <text x="280" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_24">
+                <text x="290" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_25">
+                <text x="295.5" y="44" class="text">L</text>
+            </g>
+            <g id="frame_1_letter_26">
+                <text x="302.5" y="44" class="text">E</text>
+            </g>
+            <g id="frame_1_letter_27">
+                <text x="310" y="44" class="text">A</text>
+            </g>
+            <g id="frame_1_letter_28">
+                <text x="318.5" y="44" class="text">R</text>
+            </g>
+            <g id="frame_1_letter_29">
+                <text x="327" y="44" class="text">N</text>
+            </g>
+            <g id="frame_1_letter_30">
+                <text x="336" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_31">
+                <text x="342" y="44" class="text">A</text>
+            </g>
+
+            <g id="frame_1_letter_32">
+                <text x="350" y="44" class="text">B</text>
+            </g>
+            <g id="frame_1_letter_33">
+                <text x="358" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_34">
+                <text x="368" y="44" class="text">U</text>
+            </g>
+            <g id="frame_1_letter_35">
+                <text x="377" y="44" class="text">T</text>
+            </g>
+            <g id="frame_1_letter_36">
+                <text x="384.5" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_37">
+                <text x="390.5" y="44" class="text">P</text>
+            </g>
+            <g id="frame_1_letter_38">
+                <text x="397.5" y="44" class="text">A</text>
+            </g>
+            <g id="frame_1_letter_39">
+                <text x="405.5" y="44" class="text">D</text>
+            </g>
+            <g id="frame_1_letter_40">
+                <text x="415" y="44" class="text">D</text>
+            </g>
+            <g id="frame_1_letter_41">
+                <text x="424" y="44" class="text">I</text>
+            </g>
+            <g id="frame_1_letter_42">
+                <text x="428" y="44" class="text">N</text>
+            </g>
+            <g id="frame_1_letter_43">
+                <text x="437.5" y="44" class="text">G</text>
+            </g>
+            <g id="frame_1_letter_44">
+                <text x="446" y="44" class="text">_</text>
+            </g>
+            <g id="frame_1_letter_45">
+                <text x="451.5" y="44" class="text">O</text>
+            </g>
+            <g id="frame_1_letter_46">
+                <text x="461.5" y="44" class="text">R</text>
+            </g>
+            <g id="frame_1_letter_47">
+                <text x="469.5" y="44" class="text">A</text>
+            </g>
+
+            <g id="frame_1_letter_48">
+                <text x="477" y="44" class="text">C</text>
+            </g>
+            <g id="frame_1_letter_49">
+                <text x="485" y="44" class="text">L</text>
+            </g>
+            <g id="frame_1_letter_50">
+                <text x="492" y="44" class="text">E</text>
+            </g>
+            <g id="frame_1_letter_51">
+                <text x="500" y="44" class="text">S</text>
+            </g>
+            <g id="frame_1_letter_52">
+                <text x="507" y="44" class="text">?</text>
+            </g>
+        </g>
+    </g>
+
+    <g id="frame_2" style="display:none">
+        <g id="frame_2_block_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="96.5" class="yellow" />
+        </g>
+        <g id="frame_2_block_1">
+            <use xlink:href="#plaintext_1" x="139.5" y="129.5" class="yellow" />
+        </g>
+        <g id="frame_2_block_2">
+            <use xlink:href="#plaintext_2" x="139.5" y="162.5" class="yellow" />
+        </g>
+        <g id="frame_2_block_3">
+            <use xlink:href="#plaintext_3" x="139.5" y="195.5" class="yellow" />
+        </g>
+
+        <g id="frame_2_blocks_empty">
+            <rect x="240.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="260.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="280.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="300.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="320.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="340.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="360.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="380.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="400.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="420.5" y="196.5" class="yellow" width="20" height="20" />
+            <rect x="440.5" y="196.5" class="yellow" width="20" height="20" />
+        </g>
+    </g>
+
+    <g id="frame_3" style="display:none">
+        <g id="frame_3_blocks" opacity="1">
+            <g id="frame_3_block_0">
+                <use xlink:href="#plaintext_0" x="139.5" y="96.5" class="yellow" />
+            </g>
+            <g id="frame_3_block_1">
+                <use xlink:href="#plaintext_1" x="139.5" y="129.5" class="yellow" />
+            </g>
+            <g id="frame_3_block_2">
+                <use xlink:href="#plaintext_2" x="139.5" y="162.5" class="yellow" />
+            </g>
+            <g id="frame_3_block_3">
+                <use xlink:href="#plaintext_3" x="139.5" y="195.5" class="yellow" />
+            </g>
+            <g id="frame_3_blocks_empty">
+                <rect x="240.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="260.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="280.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="300.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="320.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="340.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="360.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="380.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="400.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="420.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="440.5" y="196.5" class="red" width="20" height="20" />
+            </g>
+        </g>
+        <g id="frame_3_text_new" opacity="0">
+            <text x="263" y="176" class="text-lg">PKCS#7</text>
+        </g>
+    </g>
+
+    <g id="frame_4" style="display:none">
+        <g id="frame_4_text">
+            <text x="263" y="176" class="text-lg">PKCS#7</text>
+        </g>
+        <g id="frame_4_block" opacity="0">
+            <rect x="140" y="159" class="yellow" width="20" height="20" />
+            <rect x="160" y="159" class="yellow" width="20" height="20" />
+            <rect x="180" y="159" class="yellow" width="20" height="20" />
+            <rect x="200" y="159" class="yellow" width="20" height="20" />
+            <rect x="220" y="159" class="yellow" width="20" height="20" />
+            <rect x="240" y="159" class="yellow" width="20" height="20" />
+            <rect x="260" y="159" class="yellow" width="20" height="20" />
+            <rect x="280" y="159" class="yellow" width="20" height="20" />
+            <rect x="300" y="159" class="yellow" width="20" height="20" />
+            <rect x="320" y="159" class="yellow" width="20" height="20" />
+            <rect x="340" y="159" class="yellow" width="20" height="20" />
+            <rect x="360" y="159" class="yellow" width="20" height="20" />
+            <rect x="380" y="159" class="red" width="20" height="20" />
+            <rect x="400" y="159" class="red" width="20" height="20" />
+            <rect x="420" y="159" class="red" width="20" height="20" />
+            <rect x="440" y="159" class="red" width="20" height="20" />
+        </g>
+        <g id="frame_4_block_text" opacity="0">
+            <text x="145.5" y="173.5" class="text">A</text>
+            <text x="165.5" y="173.5" class="text">A</text>
+            <text x="185.5" y="173.5" class="text">A</text>
+            <text x="205.5" y="173.5" class="text">A</text>
+            <text x="225.5" y="173.5" class="text">A</text>
+            <text x="245.5" y="173.5" class="text">A</text>
+            <text x="265.5" y="173.5" class="text">A</text>
+            <text x="285.5" y="173.5" class="text">A</text>
+            <text x="305.5" y="173.5" class="text">A</text>
+            <text x="325.5" y="173.5" class="text">A</text>
+            <text x="345.5" y="173.5" class="text">A</text>
+            <text x="365.5" y="173.5" class="text">A</text>
+        </g>
+        <g id="frame_4_padding_01" opacity="0">
+            <text x="385.5" y="174" class="text">4</text>
+
+        </g>
+        <g id="frame_4_padding_02" opacity="0">
+            <text x="405.5" y="174" class="text">4</text>
+
+        </g>
+        <g id="frame_4_padding_03" opacity="0">
+            <text x="425.5" y="174" class="text">4</text>
+        </g>
+        <g id="frame_4_padding_04" opacity="0">
+            <text x="445.5" y="174" class="text">4</text>
+        </g>
+    </g>
+
+    <g id="frame_5" style="display:none">
+        <g id="frame_5_prev" opacity="1">
+            <text x="263" y="51" class="text-lg">PKCS#7</text>
+            <rect x="140" y="159" class="yellow" width="20" height="20" />
+            <rect x="160" y="159" class="yellow" width="20" height="20" />
+            <rect x="180" y="159" class="yellow" width="20" height="20" />
+            <rect x="200" y="159" class="yellow" width="20" height="20" />
+            <rect x="220" y="159" class="yellow" width="20" height="20" />
+            <rect x="240" y="159" class="yellow" width="20" height="20" />
+            <rect x="260" y="159" class="yellow" width="20" height="20" />
+            <rect x="280" y="159" class="yellow" width="20" height="20" />
+            <rect x="300" y="159" class="yellow" width="20" height="20" />
+            <rect x="320" y="159" class="yellow" width="20" height="20" />
+            <rect x="340" y="159" class="yellow" width="20" height="20" />
+            <rect x="360" y="159" class="yellow" width="20" height="20" />
+            <rect x="380" y="159" class="red" width="20" height="20" />
+            <rect x="400" y="159" class="red" width="20" height="20" />
+            <rect x="420" y="159" class="red" width="20" height="20" />
+            <rect x="440" y="159" class="red" width="20" height="20" />
+            <text x="145.5" y="173.5" class="text">A</text>
+            <text x="165.5" y="173.5" class="text">A</text>
+            <text x="185.5" y="173.5" class="text">A</text>
+            <text x="205.5" y="173.5" class="text">A</text>
+            <text x="225.5" y="173.5" class="text">A</text>
+            <text x="245.5" y="173.5" class="text">A</text>
+            <text x="265.5" y="173.5" class="text">A</text>
+            <text x="285.5" y="173.5" class="text">A</text>
+            <text x="305.5" y="173.5" class="text">A</text>
+            <text x="325.5" y="173.5" class="text">A</text>
+            <text x="345.5" y="173.5" class="text">A</text>
+            <text x="365.5" y="173.5" class="text">A</text>
+            <text x="385.5" y="174" class="text">4</text>
+            <text x="405.5" y="174" class="text">4</text>
+            <text x="425.5" y="174" class="text">4</text>
+            <text x="445.5" y="174" class="text">4</text>
+        </g>
+        <g id="frame_5_next" opacity="0">
+            <g id="frame_5_block_0">
+                <use xlink:href="#plaintext_0" x="139.5" y="96.5" class="yellow" />
+            </g>
+            <g id="frame_5_block_1">
+                <use xlink:href="#plaintext_1" x="139.5" y="129.5" class="yellow" />
+            </g>
+            <g id="frame_5_block_2">
+                <use xlink:href="#plaintext_2" x="139.5" y="162.5" class="yellow" />
+            </g>
+            <g id="frame_5_block_3">
+                <use xlink:href="#plaintext_3" x="139.5" y="195.5" class="yellow" />
+                <g id="frame_5_blocks_empty">
+                    <rect x="240.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="260.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="280.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="300.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="320.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="340.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="360.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="380.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="400.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="420.5" y="196.5" class="red" width="20" height="20" />
+                    <rect x="440.5" y="196.5" class="red" width="20" height="20" />
+                </g>
+            </g>
+        </g>
+    </g>
+
+    <g id="frame_6" style="display:none">
+        <g id="frame_6_block_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="96.5" class="yellow" />
+        </g>
+        <g id="frame_6_block_1">
+            <use xlink:href="#plaintext_1" x="139.5" y="129.5" class="yellow" />
+        </g>
+        <g id="frame_6_block_2">
+            <use xlink:href="#plaintext_2" x="139.5" y="162.5" class="yellow" />
+        </g>
+        <g id="frame_6_block_3">
+            <use xlink:href="#plaintext_3" x="139.5" y="195.5" class="yellow" />
+            <g id="frame_6_blocks_empty">
+                <rect x="240.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="260.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="280.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="300.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="320.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="340.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="360.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="380.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="400.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="420.5" y="196.5" class="red" width="20" height="20" />
+                <rect x="440.5" y="196.5" class="red" width="20" height="20" />
+            </g>
+        </g>
+        <g>
+            <text id="frame_6_padding_01" x="244" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_02" x="264" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_03" x="284" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_04" x="304" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_05" x="324" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_06" x="344" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_07" x="364" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_08" x="384" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_09" x="404" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_10" x="424" y="211" class="text-sm" opacity="0">11</text>
+            <text id="frame_6_padding_11" x="444" y="211" class="text-sm" opacity="0">11</text>
+        </g>
+    </g>
+
+    <g id="frame_7" style="display:none">
+        <g id="frame_7_block_1">
+            <use xlink:href="#plaintext_0" x="139.5" y="96.5" class="yellow" />
+        </g>
+        <g id="frame_7_text" opacity="0">
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_7_old_block_2_3_4" opacity="1">
+            <use xlink:href="#plaintext_1" x="139.5" y="129.5" class="yellow" />
+            <use xlink:href="#plaintext_2" x="139.5" y="162.5" class="yellow" />
+            <use xlink:href="#plaintext_3" x="139.5" y="195.5" class="yellow" />
+            <rect x="240.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="260.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="280.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="300.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="320.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="340.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="360.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="380.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="400.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="420.5" y="196.5" class="red" width="20" height="20" />
+            <rect x="440.5" y="196.5" class="red" width="20" height="20" />
+            <text id="frame_7_padding_01" x="244" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_02" x="264" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_03" x="284" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_04" x="304" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_05" x="324" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_06" x="344" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_07" x="364" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_08" x="384" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_09" x="404" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_10" x="424" y="211" class="text-sm">11</text>
+            <text id="frame_7_padding_11" x="444" y="211" class="text-sm">11</text>
+        </g>
+    </g>
+
+    <g id="frame_8" style="display:none">
+        <g id="frame_8_plaintext_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_8_iv" opacity="0">
+            <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+            <text x="18" y="78" class="text">initialisation vector</text>
+        </g>
+    </g>
+
+    <g id="frame_9" style="display:none">
+        <g id="frame_9_plaintext_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_9_iv">
+            <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+            <text x="18" y="78" class="text">initialisation vector</text>
+        </g>
+        <g id="frame_9_xor" opacity="0">
+            <text x="65" y="110" class="text">xor block 0</text>
+            <rect x="140.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="160.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="180.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="200.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="220.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="240.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="260.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="280.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="300.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="320.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="340.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="360.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="380.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="400.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="420.5" y="95.5" class="green" width="20" height="20" />
+            <rect x="440.5" y="95.5" class="green" width="20" height="20" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+
+            <text id="frame_9_letter_00" x="146.5" y="111" class="text" opacity="0">E</text>
+            <text id="frame_9_letter_01" x="168" y="111" class="text" opacity="0">J</text>
+            <text id="frame_9_letter_02" x="185.5" y="111" class="text" opacity="0">O</text>
+            <text id="frame_9_letter_03" x="206.5" y="111" class="text" opacity="0">R</text>
+            <text id="frame_9_letter_04" x="225.5" y="111" class="text" opacity="0">Q</text>
+            <text id="frame_9_letter_05" x="246.5" y="111" class="text" opacity="0">Z</text>
+            <text id="frame_9_letter_06" x="265" y="111" class="text" opacity="0">M</text>
+            <text id="frame_9_letter_07" x="287.5" y="111" class="text" opacity="0">S</text>
+            <text id="frame_9_letter_08" x="305.5" y="111" class="text" opacity="0">A</text>
+            <text id="frame_9_letter_09" x="325.5" y="111" class="text" opacity="0">K</text>
+            <text id="frame_9_letter_10" x="346.5" y="111" class="text" opacity="0">F</text>
+            <text id="frame_9_letter_11" x="366" y="111" class="text" opacity="0">X</text>
+            <text id="frame_9_letter_12" x="385.5" y="111" class="text" opacity="0">C</text>
+            <text id="frame_9_letter_13" x="406.5" y="111" class="text" opacity="0">F</text>
+            <text id="frame_9_letter_14" x="425.5" y="111" class="text" opacity="0">G</text>
+            <text id="frame_9_letter_15" x="446" y="111" class="text" opacity="0">H</text>
+        </g>
+    </g>
+
+    <g id="frame_10" style="display:none">
+        <g id="frame_10_plaintext_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_10_iv">
+            <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+            <text x="18" y="78" class="text">initialisation vector</text>
+        </g>
+        <g>
+            <text x="65" y="110" class="text">xor block 0</text>
+            <use xlink:href="#xor_0" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+        </g>
+        <g id="frame_10_aes" opacity="0">
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+        </g>
+    </g>
+
+    <g id="frame_11" style="display:none">
+        <g id="frame_11_plaintext_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_11_iv">
+            <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+            <text x="18" y="78" class="text">initialisation vector</text>
+        </g>
+        <g>
+            <text x="65" y="110" class="text">xor block 0</text>
+            <use xlink:href="#xor_0" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+        </g>
+        <g id="frame_11_new" opacity="0">
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+        </g>
+    </g>
+
+    <g id="frame_12" style="display:none">
+        <g id="frame_12_plaintext_0">
+            <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 0</text>
+        </g>
+        <g id="frame_12_iv">
+            <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+            <text x="18" y="78" class="text">initialisation vector</text>
+        </g>
+        <g>
+            <text x="65" y="110" class="text">xor block 0</text>
+            <use xlink:href="#xor_0" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+        </g>
+        <g id="frame_12_new" opacity="0">
+            <g id="frame_12_ciphertext_0">
+                <use xlink:href="#ciphertext_0" x="139" y="268" class="violet" />
+                <text x="24" y="284" class="text">ciphertext block 0</text>
+            </g>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+        </g>
+    </g>
+
+    <g id="frame_13" style="display:none">
+        <g id="frame_13_prev">
+            <g id="frame_13_plaintext_0">
+                <use xlink:href="#plaintext_0" x="139.5" y="37.5" class="yellow" />
+                <text x="32" y="53" class="text">plaintext block 0</text>
+            </g>
+            <g id="frame_13_iv">
+                <use xlink:href="#iv" x="139.5" y="63.5" class="blue" />
+                <text x="18" y="78" class="text">initialisation vector</text>
+            </g>
+            <text x="65" y="110" class="text">xor block 0</text>
+            <use xlink:href="#xor_0" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+        </g>
+        <g id="frame_13_ciphertext">
+            <use xlink:href="#ciphertext_0" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 0</text>
+        </g>
+        <g id="frame_13_plaintext_2" opacity="0">
+            <use xlink:href="#plaintext_1" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 1</text>
+        </g>
+    </g>
+
+    <g id="frame_14" style="display:none">
+        <g id="frame_14_plaintext_1">
+            <use xlink:href="#plaintext_1" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 1</text>
+        </g>
+        <g id="frame_14_ciphertext_0">
+            <use xlink:href="#ciphertext_0" x="139" y="63.5" class="violet" />
+            <text x="24" y="79.5" class="text">ciphertext block 0</text>
+        </g>
+        <g id="frame_14_xor" opacity="0">
+            <text x="65" y="110" class="text">xor block 1</text>
+            <use xlink:href="#xor_1" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+        </g>
+    </g>
+    <g id="frame_15" style="display:none">
+        <g id="frame_15_plaintext_1">
+            <use xlink:href="#plaintext_1" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 1</text>
+        </g>
+        <g id="frame_15_ciphertext_0">
+            <use xlink:href="#ciphertext_0" x="139" y="63.5" class="violet" />
+            <text x="24" y="79.5" class="text">ciphertext block 0</text>
+        </g>
+        <g>
+            <text x="65" y="110" class="text">xor block 1</text>
+            <use xlink:href="#xor_1" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+        </g>
+        <g id="frame_15_new" opacity="0">
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+            <use xlink:href="#ciphertext_1" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 1</text>
+        </g>
+    </g>
+    <g id="frame_16" style="display:none">
+        <g id="frame_16_old">
+            <g id="frame_16_plaintext_1">
+                <use xlink:href="#plaintext_1" x="139.5" y="37.5" class="yellow" />
+                <text x="32" y="53" class="text">plaintext block 1</text>
+            </g>
+            <g id="frame_16_ciphertext_0">
+                <use xlink:href="#ciphertext_0" x="139" y="63.5" class="violet" />
+                <text x="24" y="79.5" class="text">ciphertext block 0</text>
+            </g>
+
+            <text x="65" y="110" class="text">xor block 1</text>
+            <use xlink:href="#xor_1" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+        </g>
+        <g id="frame_16_ciphertext">
+            <use xlink:href="#ciphertext_1" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 1</text>
+        </g>
+        <g id="frame_16_plaintext" opacity="0">
+            <use xlink:href="#plaintext_2" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 2</text>
+        </g>
+        <g id="frame_16_xor" opacity="0">
+            <text x="65" y="110" class="text">xor block 2</text>
+            <use xlink:href="#xor_2" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+        </g>
+        <g id="frame_16_aes" opacity="0">
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+        </g>
+        <g id="frame_16_ciphertext_new" opacity="0">
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+            <use xlink:href="#ciphertext_2" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 2</text>
+        </g>
+    </g>
+
+    <g id="frame_17" style="display:none">
+        <g id="frame_17_old" opacity="1">
+            <use xlink:href="#plaintext_2" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 2</text>
+            <use xlink:href="#ciphertext_1" x="139" y="63.5" class="violet" />
+            <text x="24" y="79.5" class="text">ciphertext block 1</text>
+            <text x="65" y="110" class="text">xor block 2</text>
+            <use xlink:href="#xor_2" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+        </g>
+        <g id="frame_17_ciphertext">
+            <use xlink:href="#ciphertext_2" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 2</text>
+        </g>
+        <g id="frame_17_plaintext" opacity="0">
+            <text x="32" y="53" class="text">plaintext block 3</text>
+            <use xlink:href="#plaintext_3" x="139.5" y="37.5" class="yellow" />
+        </g>
+        <g id="frame_17_xor" opacity="0">
+            <text x="65" y="110" class="text">xor block 3</text>
+            <use xlink:href="#xor_3" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+        </g>
+        <g id="frame_17_aes" opacity="0">
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+        </g>
+        <g id="frame_17_ciphertext_new" opacity="0">
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+            <use xlink:href="#ciphertext_3" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 3</text>
+        </g>
+    </g>
+    <g id="frame_18" style="display:none">
+        <g id="frame_18_old">
+            <use xlink:href="#plaintext_3" x="139.5" y="37.5" class="yellow" />
+            <text x="32" y="53" class="text">plaintext block 3</text>
+            <use xlink:href="#ciphertext_2" x="139" y="63.5" class="violet" />
+            <text x="24" y="79.5" class="text">ciphertext block 2</text>
+
+            <text x="65" y="110" class="text">xor block 3</text>
+            <use xlink:href="#xor_3" x="139.5" y="94.5" class="green" />
+            <circle class="white" cx="474.5" cy="74.5" r="6" />
+            <line class="white" x1="474.5" y1="68" x2="474.5" y2="81" />
+            <line class="white" x1="468" y1="74.5" x2="481" y2="74.5" />
+
+            <use xlink:href="#ciphertext_3" x="139" y="268" class="violet" />
+            <text x="24" y="284" class="text">ciphertext block 3</text>
+
+            <rect x="243.7" y="152" class="red" width="112.6" height="77.5" />
+            <text x="264" y="185" class="text">block cipher</text>
+            <text x="268" y="205" class="text">encryption</text>
+            <line class="white" x1="300" y1="118.5" x2="300" y2="143" />
+            <polygon points="296.3,140.2 300,141.8 303.7,140.2 300,149" />
+            <line class="white" x1="198" y1="191" x2="233" y2="191" />
+            <polygon points="230.2,194.7 231.8,191 230.2,187.3 239,191" />
+            <text x="173" y="194" class="text">key</text>
+            <line class="white" x1="300" y1="233.5" x2="300" y2="258" />
+            <polygon points="296.3,255.2 300,256.8 303.7,255.2 300,264" />
+        </g>
+        <g id="frame_18_ciphertext_0" opacity="0">
+            <text x="24" y="130" class="text">ciphertext block 0</text>
+            <use xlink:href="#ciphertext_0" x="139" y="114" class="violet" />
+        </g>
+        <g id="frame_18_ciphertext_1" opacity="0">
+            <text x="24" y="160" class="text">ciphertext block 1</text>
+            <use xlink:href="#ciphertext_1" x="139" y="143" class="violet" />
+        </g>
+        <g id="frame_18_ciphertext_2" opacity="0">
+            <text x="24" y="189" class="text">ciphertext block 2</text>
+            <use xlink:href="#ciphertext_2" x="139" y="172" class="violet" />
+        </g>
+        <g id="frame_18_ciphertext_3" opacity="0">
+            <text x="24" y="218" class="text">ciphertext block 3</text>
+            <use xlink:href="#ciphertext_3" x="139" y="201" class="violet" />
+        </g>
+    </g>
+
+    <g id="frame_19" style="display:none">
+        <text x="24" y="130" class="text">ciphertext block 0</text>
+        <use xlink:href="#ciphertext_0" x="139" y="114" class="violet" />
+        <text x="24" y="160" class="text">ciphertext block 1</text>
+        <use xlink:href="#ciphertext_1" x="139" y="143" class="violet" />
+        <text x="24" y="189" class="text">ciphertext block 2</text>
+        <use xlink:href="#ciphertext_2" x="139" y="172" class="violet" />
+        <text x="24" y="218" class="text">ciphertext block 3</text>
+        <use xlink:href="#ciphertext_3" x="139" y="201" class="violet" />
+    </g>
+</g>
+</svg>

@@ -1,0 +1,100 @@
+.white {
+    fill: #fff;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.yellow {
+    fill: #FAF999;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.red {
+    fill: #FFABDF;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.blue {
+    fill: #8AF2FF;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.green {
+    fill: #7BFFBD;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.violet {
+    fill: #D29EFF;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.text {
+    font-size: 14px;
+    fill: #000;
+    stroke: none;
+}
+
+.text-lg {
+    font-size: 24px;
+}
+
+.text-sm {
+    font-size: 12px;
+    fill: #000;
+    stroke: none;
+}
+
+.cross {
+    fill: #ff5967;
+}
+
+.text2 {
+    fill: red;
+    font-size: 14px;
+}
+
+svg rect {
+    fill: inherit;
+    stroke: inherit;
+    stroke-miterlimit: inherit;
+}
+
+svg {
+    border: solid 1px #5b5b5b;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+}
+
+button {
+    border: solid 1px #5b5b5b;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    min-width: 5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover {
+    color: #fff;
+    background: #5b5b5b;
+    cursor: pointer;
+}
+
+button.disabled {
+    background: #fff;
+    color: #000;
+    opacity: .25;
+}
+
+button.disabled:hover {
+    cursor: not-allowed;
+}
