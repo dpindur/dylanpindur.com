@@ -10,7 +10,7 @@ var animation_2_text = [
     "The block decrypts to nothing meaningful and we get a padding error, but that's okay.",
     "We're going to cycle through every possible value for the last byte of ciphertext block 2 until we get a result that has valid padding. It's unlikely to be the actual padding of the plaintext, but it is still valid.",
     "It's safe to assume that the padding value is 1 as this is the most likely outcome. The chance of randomly getting two bytes correct is much lower than getting one.",
-    "Since we now know the last byte is 1 and we know the last byte of ciphertext (because we chose it), we can xor these values and determine the final byte of the intemediate block.",
+    "Since we now know the value of the last byte is 1 and we know the last byte of ciphertext (because we chose it), we can undo the xor operation on these values and determine the final byte of the intemediate block.",
     "Now onto the second last byte, since we want 2 padding values each with the value '2' we use our knowledge of the final byte of the intermediate block to determine what we should put as the final byte of ciphertext.",
     "We then repeat the process from before, cycling through every value until we get a valid padding.",
     "Again we use the known padding value of 2 and the known ciphertext value of 5 to determine the second last intermediate byte.",
